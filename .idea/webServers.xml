@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3318b291-2281-4c80-a65a-2a94d5498177" name="mtgcardpicechecker" url="http://ftpupload.net">
+        <fileTransfer host="ftpupload.net" port="21" rootFolder="/mtgcardpricechecker.22web.org/htdocs">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="8f4dcfac-7c4c-44c1-8a61-109e6ad56eb4" name="mtgcards.online" url="http://files.000webhost.com">
+        <fileTransfer host="files.000webhost.com" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

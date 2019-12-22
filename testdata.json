@@ -1,0 +1,2983 @@
+{
+  "cards": [
+    {
+      "name": "Shock",
+      "manaCost": "{R}",
+      "cmc": 1.0,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Instant",
+      "supertypes": [],
+      "types": [
+        "Instant"
+      ],
+      "subtypes": [],
+      "rarity": "Common",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "Shock deals 2 damage to any target.",
+      "artist": "Jon Foster",
+      "number": "232",
+      "layout": "normal",
+      "multiverseid": 129732,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129732&type=card",
+      "rulings": [],
+      "foreignNames": [
+        {
+          "name": "Schock",
+          "text": "Schock fügt einer Kreatur oder einem Spieler deiner Wahl 2 Schadenspunkte zu.",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148691&type=card",
+          "language": "German",
+          "multiverseid": 148691
+        },
+        {
+          "name": "Choque",
+          "text": "El Choque hace 2 puntos de daño a la criatura o jugador objetivo.",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150548&type=card",
+          "language": "Spanish",
+          "multiverseid": 150548
+        },
+        {
+          "name": "Choc",
+          "text": "Le Choc inflige 2 blessures à une cible, créature ou joueur.",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150165&type=card",
+          "language": "French",
+          "multiverseid": 150165
+        },
+        {
+          "name": "Shock",
+          "text": "Lo Shock infligge 2 danni a una creatura o a un giocatore bersaglio.",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149074&type=card",
+          "language": "Italian",
+          "multiverseid": 149074
+        },
+        {
+          "name": "ショック",
+          "text": "クリーチャー１体かプレイヤー１人を対象とする。ショックはそれに２点のダメージを与える。",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148308&type=card",
+          "language": "Japanese",
+          "multiverseid": 148308
+        },
+        {
+          "name": "Choque",
+          "text": "Choque causa 2 pontos de dano à criatura ou ao jogador alvo.",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149782&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 149782
+        },
+        {
+          "name": "Шок",
+          "text": "Шок наносит 2 повреждения целевому существу или игроку.",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149399&type=card",
+          "language": "Russian",
+          "multiverseid": 149399
+        },
+        {
+          "name": "电震",
+          "text": "电震对目标生物或牌手造成2点伤害。",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147925&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": 147925
+        }
+      ],
+      "printings": [
+        "10E",
+        "6ED",
+        "7ED",
+        "8ED",
+        "9ED",
+        "AER",
+        "BBD",
+        "BTD",
+        "DDN",
+        "DPA",
+        "FNM",
+        "M12",
+        "M14",
+        "M19",
+        "M20",
+        "ONS",
+        "PMEI",
+        "PRM",
+        "PS11",
+        "PSAL",
+        "STH",
+        "WC98",
+        "WC99"
+      ],
+      "originalText": "Shock deals 2 damage to target creature or player.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Brawl",
+          "legality": "Legal"
+        },
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Future",
+          "legality": "Legal"
+        },
+        {
+          "format": "Historic",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Standard",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "89003d17-635d-5563-8111-7a2facfccf94"
+    },
+    {
+      "name": "Shock",
+      "manaCost": "{R}",
+      "cmc": 1.0,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Instant",
+      "supertypes": [],
+      "types": [
+        "Instant"
+      ],
+      "subtypes": [],
+      "rarity": "Common",
+      "set": "9ED",
+      "setName": "Ninth Edition",
+      "text": "Shock deals 2 damage to any target.",
+      "flavor": "\"Once I saw a goblin shouting at a thunderstorm. He lost the argument pretty quickly.\" —Wandering mage",
+      "artist": "Randy Gallegos",
+      "number": "220",
+      "layout": "normal",
+      "multiverseid": 83261,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=83261&type=card",
+      "rulings": [],
+      "foreignNames": [
+        {
+          "name": "Schock",
+          "text": "Schock fügt einer Kreatur oder einem Spieler deiner Wahl 2 Schadenspunkte zu.",
+          "flavor": "„Ich habe einmal einen Goblin gesehen, der einen Sturm anbrüllte. Er verlor diesen Streit sehr schnell.\" —Wandernder Magier",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=98712&type=card",
+          "language": "German",
+          "multiverseid": 98712
+        },
+        {
+          "name": "Choque",
+          "text": "El Choque hace 2 puntos de daño a la criatura o jugador objetivo.",
+          "flavor": "\"Una vez vi a un trasgo gritándole a una tormenta eléctrica. Perdió la discusión bastante rápido.\" —Mago errante",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=100152&type=card",
+          "language": "Spanish",
+          "multiverseid": 100152
+        },
+        {
+          "name": "Choc",
+          "text": "Le Choc inflige 2 blessures à une cible, créature ou joueur.",
+          "flavor": "« Une fois, j'ai vu un gobelin crier sur la tempête. La dispute s'est rapidement terminée. » —Un mage itinérant",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=98352&type=card",
+          "language": "French",
+          "multiverseid": 98352
+        },
+        {
+          "name": "Shock",
+          "text": "Lo Shock infligge 2 danni a una creatura o a un giocatore bersaglio.",
+          "flavor": "\"Una volta ho visto un goblin urlare contro un temporale. Ha avuto la peggio piuttosto in fretta.\" —Mago ramingo",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=99072&type=card",
+          "language": "Italian",
+          "multiverseid": 99072
+        },
+        {
+          "name": "ショック",
+          "text": "クリーチャー１体かプレイヤー１人を対象とする。ショックはそれに２点のダメージを与える。",
+          "flavor": "ゴブリンが雷雨の中で叫んでたのを見たことがあるよ。 あっという間にその口論に負けてたがな。 ――放浪の魔道士",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=99432&type=card",
+          "language": "Japanese",
+          "multiverseid": 99432
+        },
+        {
+          "name": "Choque",
+          "text": "Choque causa 2 pontos de dano à criatura ou ao jogador alvo.",
+          "flavor": "\"Uma vez eu vi um goblin gritando para uma tempestade de raios. Ele perdeu a discussão bem rápido.\" — Mago errante",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=99792&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 99792
+        },
+        {
+          "name": "Шок",
+          "text": "Шок наносит 2 повреждения целевому существу или игроку.",
+          "flavor": "\"Однажды я услышал, как гоблин орет на грозовую тучу. Очень быстро у него закончились аргументы\". — Странствующий маг",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=110063&type=card",
+          "language": "Russian",
+          "multiverseid": 110063
+        },
+        {
+          "name": "电震",
+          "text": "电震对目标生物或牌手造成2点伤害。",
+          "flavor": "「我曾见过精灵向着雷霆风暴咆哮。 这场架他很快就吵输了。」 ～流浪法师",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=97992&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": 97992
+        }
+      ],
+      "printings": [
+        "10E",
+        "6ED",
+        "7ED",
+        "8ED",
+        "9ED",
+        "AER",
+        "BBD",
+        "BTD",
+        "DDN",
+        "DPA",
+        "FNM",
+        "M12",
+        "M14",
+        "M19",
+        "M20",
+        "ONS",
+        "PMEI",
+        "PRM",
+        "PS11",
+        "PSAL",
+        "STH",
+        "WC98",
+        "WC99"
+      ],
+      "originalText": "Shock deals 2 damage to target creature or player.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Brawl",
+          "legality": "Legal"
+        },
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Future",
+          "legality": "Legal"
+        },
+        {
+          "format": "Historic",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Standard",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "bd1ace94-c172-5ba0-b5a7-26b6bafcd2c6"
+    },
+    {
+      "name": "Vulshok Morningstar",
+      "manaCost": "{2}",
+      "cmc": 2.0,
+      "colors": [],
+      "colorIdentity": [],
+      "type": "Artifact — Equipment",
+      "supertypes": [],
+      "types": [
+        "Artifact"
+      ],
+      "subtypes": [
+        "Equipment"
+      ],
+      "rarity": "Uncommon",
+      "set": "9ED",
+      "setName": "Ninth Edition",
+      "text": "Equipped creature gets +2/+2.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+      "artist": "David Martin",
+      "number": "315",
+      "layout": "normal",
+      "multiverseid": 83447,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=83447&type=card",
+      "rulings": [],
+      "foreignNames": [
+        {
+          "name": "Vulshok-Morgenstern",
+          "text": "Die ausgerüstete Kreatur erhält +2/+2.\nAusrüsten {2} ({2}: Lege diese Karte an eine Kreatur deiner Wahl an, die du kontrollierst. Spiele Ausrüsten wie eine Hexerei.)",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=98775&type=card",
+          "language": "German",
+          "multiverseid": 98775
+        },
+        {
+          "name": "Mangual vúlshok",
+          "text": "La criatura equipada obtiene +2/+2.\nEquipar {2} ({2}: Anexa este equipo a la criatura objetivo que controles. Juega la habilidad de equipar como un conjuro).",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=100215&type=card",
+          "language": "Spanish",
+          "multiverseid": 100215
+        },
+        {
+          "name": "Morgenstern vulshok",
+          "text": "La créature équipée gagne +2/+2.\nÉquipement {2} ({2} : Attachez à la créature ciblée que vous contrôlez. N'attachez l'équipement que lorsque vous pourriez jouer un rituel.)",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=98415&type=card",
+          "language": "French",
+          "multiverseid": 98415
+        },
+        {
+          "name": "Mazzafrusto Vulshok",
+          "text": "La creatura equipaggiata prende +2/+2.\nEquipaggiare {2} ({2}: Assegnalo a una creatura bersaglio che controlli. Equipaggialo solo come una stregoneria.)",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=99135&type=card",
+          "language": "Italian",
+          "multiverseid": 99135
+        },
+        {
+          "name": "ヴァルショクの鉄球",
+          "text": "装備しているクリーチャーは+2/+2の修整を受ける。\n装備 {2} ({2}：あなたがコントロールするクリーチャー１体を対象とし、これをつける。 装備はソーサリーとしてのみ行う。）",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=99495&type=card",
+          "language": "Japanese",
+          "multiverseid": 99495
+        },
+        {
+          "name": "Maça-estrela dos Vulshoques",
+          "text": "A criatura equipada recebe +2/+2.\nEquipar {2} ({2}: Anexe à criatura alvo que você controla. Equipe somente quando puder jogar um feitiço.)",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=99855&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 99855
+        },
+        {
+          "name": "Палица Вулшока",
+          "text": "Существо со снаряжением получает +2/+2.\nСнарядить {2} ({2}: прикрепите к целевому существу, которое вы контролируете. Только как волшебство).",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=110126&type=card",
+          "language": "Russian",
+          "multiverseid": 110126
+        },
+        {
+          "name": "瓦许克晨星锤",
+          "text": "佩带此武具的生物得+2/+2。\n佩带{2}（{2}：装备在目标由你操控的生物上； 佩带的时机视同法术。）",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=98055&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": 98055
+        }
+      ],
+      "printings": [
+        "9ED",
+        "DDI",
+        "DST"
+      ],
+      "originalText": "Equipped creature gets +2/+2.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+      "originalType": "Artifact - Equipment",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "d0506adc-3d6a-507b-aedf-08320c486430"
+    },
+    {
+      "name": "Shock",
+      "manaCost": "{R}",
+      "cmc": 1.0,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Instant",
+      "supertypes": [],
+      "types": [
+        "Instant"
+      ],
+      "subtypes": [],
+      "rarity": "Common",
+      "set": "AER",
+      "setName": "Aether Revolt",
+      "text": "Shock deals 2 damage to any target.",
+      "flavor": "The tools of invention became the weapons of revolution.",
+      "artist": "Jason Rainville",
+      "number": "98",
+      "layout": "normal",
+      "multiverseid": 423765,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=423765&type=card",
+      "rulings": [],
+      "foreignNames": [
+        {
+          "name": "Schock",
+          "text": "Der Schock fügt einer Kreatur oder einem Spieler deiner Wahl 2 Schadenspunkte zu.",
+          "flavor": "Die Werkzeuge der Erfinder wurden zu Waffen der Revolution.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=424317&type=card",
+          "language": "German",
+          "multiverseid": 424317
+        },
+        {
+          "name": "Choque",
+          "text": "El Choque hace 2 puntos de daño a la criatura o jugador objetivo.",
+          "flavor": "Las herramientas de invención se convirtieron en las armas de la revolución.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=425605&type=card",
+          "language": "Spanish",
+          "multiverseid": 425605
+        },
+        {
+          "name": "Choc",
+          "text": "Le Choc inflige 2 blessures à une cible, créature ou joueur.",
+          "flavor": "Les outils de l'invention devinrent les armes de la révolution.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=424501&type=card",
+          "language": "French",
+          "multiverseid": 424501
+        },
+        {
+          "name": "Shock",
+          "text": "Lo Shock infligge 2 danni a una creatura o a un giocatore bersaglio.",
+          "flavor": "Gli strumenti dell'invenzione divennero le armi della rivoluzione.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=424685&type=card",
+          "language": "Italian",
+          "multiverseid": 424685
+        },
+        {
+          "name": "ショック",
+          "text": "クリーチャー１体かプレイヤー１人を対象とする。ショックはそれに２点のダメージを与える。",
+          "flavor": "発明の賜物が革命の業物になった。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=424869&type=card",
+          "language": "Japanese",
+          "multiverseid": 424869
+        },
+        {
+          "name": "충격",
+          "text": "생물이나 플레이어를 목표로 정한다. 충격은 그 목표에 피해 2점을 입힌다.",
+          "flavor": "발명의 도구가 혁명의 무기가 되었다.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=425053&type=card",
+          "language": "Korean",
+          "multiverseid": 425053
+        },
+        {
+          "name": "Choque",
+          "text": "Choque causa 2 pontos de dano à criatura ou ao jogador alvo.",
+          "flavor": "As ferramentas da invenção tornaram-se as armas da revolução.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=425237&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 425237
+        },
+        {
+          "name": "Шок",
+          "text": "Шок наносит 2 повреждения целевому существу или игроку.",
+          "flavor": "Инструменты изобретателей стали оружием революции.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=425421&type=card",
+          "language": "Russian",
+          "multiverseid": 425421
+        },
+        {
+          "name": "电震",
+          "text": "电震对目标生物或牌手造成2点伤害。",
+          "flavor": "发明的工具成为了革命的武器。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=423949&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": 423949
+        },
+        {
+          "name": "電震",
+          "text": "電震對目標生物或玩家造成2點傷害。",
+          "flavor": "發明的工具成為了革命的武器。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=424133&type=card",
+          "language": "Chinese Traditional",
+          "multiverseid": 424133
+        }
+      ],
+      "printings": [
+        "10E",
+        "6ED",
+        "7ED",
+        "8ED",
+        "9ED",
+        "AER",
+        "BBD",
+        "BTD",
+        "DDN",
+        "DPA",
+        "FNM",
+        "M12",
+        "M14",
+        "M19",
+        "M20",
+        "ONS",
+        "PMEI",
+        "PRM",
+        "PS11",
+        "PSAL",
+        "STH",
+        "WC98",
+        "WC99"
+      ],
+      "originalText": "Shock deals 2 damage to target creature or player.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Brawl",
+          "legality": "Legal"
+        },
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Future",
+          "legality": "Legal"
+        },
+        {
+          "format": "Historic",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Standard",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "07552d33-6de8-5e1f-a985-d1c697f87c0d"
+    },
+    {
+      "name": "Protomatter Powder",
+      "manaCost": "{2}{U}",
+      "cmc": 3.0,
+      "colors": [
+        "Blue"
+      ],
+      "colorIdentity": [
+        "U",
+        "W"
+      ],
+      "type": "Artifact",
+      "supertypes": [],
+      "types": [
+        "Artifact"
+      ],
+      "subtypes": [],
+      "rarity": "Uncommon",
+      "set": "ALA",
+      "setName": "Shards of Alara",
+      "text": "{4}{W}, {T}, Sacrifice Protomatter Powder: Return target artifact card from your graveyard to the battlefield.",
+      "flavor": "\"There is no such thing as scrap metal. All such material can be repaired with the proper bonding agent.\" —Quennus, metallurgeon",
+      "artist": "Francis Tsai",
+      "number": "53",
+      "layout": "normal",
+      "multiverseid": 174833,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=174833&type=card",
+      "rulings": [
+        {
+          "date": "2008-10-01",
+          "text": "The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "You can’t sacrifice Protomatter Powder to return itself to the battlefield. First you choose the target (at which time it’s still on the battlefield), then you pay the costs (at which time you sacrifice it)."
+        }
+      ],
+      "foreignNames": [
+        {
+          "name": "Urmaterie-Pulver",
+          "text": "{4}{W}, {T}, opfere das Urmaterie-Pulver: Bringe eine Artefaktkarte deiner Wahl aus deinem Friedhof ins Spiel zurück.",
+          "flavor": "„Metallschrott gibt es eigentlich nicht. Mit dem richtigen Bindemittel kann alles wieder repariert werden.\" —Quennus, Metalldoktor",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=187520&type=card",
+          "language": "German",
+          "multiverseid": 187520
+        },
+        {
+          "name": "Polvo de protomateria",
+          "text": "{4}{W}, {T}, sacrificar el Polvo de protomateria: Regresa la carta de artefacto objetivo de tu cementerio al juego.",
+          "flavor": "\"No existe el metal inservible. Todos esos materiales pueden ser reparados con el componente adecuado.\" —Quennus, metalúrgico",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=187769&type=card",
+          "language": "Spanish",
+          "multiverseid": 187769
+        },
+        {
+          "name": "Poudre de protomatière",
+          "text": "{4}{W}, {T}, sacrifiez la Poudre de protomatière : Renvoyez en jeu la carte d'artefact ciblée de votre cimetière.",
+          "flavor": "« Rien n'est jamais bon pour la ferraille. Tout peut être réparé à condition d'avoir l'agent liant adéquat. » —Quennus, métallurgien",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=188516&type=card",
+          "language": "French",
+          "multiverseid": 188516
+        },
+        {
+          "name": "Polvere di Protomateria",
+          "text": "{4}{W}, {T}, Sacrifica la Polvere di Protomateria: Rimetti in gioco una carta artefatto bersaglio dal tuo cimitero.",
+          "flavor": "\"Non esistono i rottami di metallo. Un tale materiale può essere riparato con il legante appropriato.\" —Quennus, metallurgo",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=188267&type=card",
+          "language": "Italian",
+          "multiverseid": 188267
+        },
+        {
+          "name": "原始物の粉",
+          "text": "{4}{W}, {T}, 原始物の粉を生け贄に捧げる：あなたの墓地にあるアーティファクト・カード１枚を対象とし、それを場に戻す。",
+          "flavor": "「屑鉄なんてものは存在せんよ。 どんなものだって、きちんとした修復材があれば直せるんだ。」 ――機械医師のクェナス",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=187022&type=card",
+          "language": "Japanese",
+          "multiverseid": 187022
+        },
+        {
+          "name": "Pó da Protomatéria",
+          "text": "{4}{W}, {T}, Sacrifique Pó da Protomatéria: Devolva o card de artefato alvo de seu cemitério para o jogo.",
+          "flavor": "\"Nenhum metal precisa virar sucata. Todos esses materiais podem ser reparados com a solda apropriada.\" — Quennus, metalurgião",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=188018&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 188018
+        },
+        {
+          "name": "Порошок Протовещества",
+          "text": "{4}{W}, {T}, пожертвуйте Порошок Протовещества: верните целевую карту артефакта из вашего кладбища в игру.",
+          "flavor": "«Нет такого понятия, как металлолом. Даже самый негодный материал можно починить с помощью правильного крепителя». — Квеннус, врачеватель металла",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=188765&type=card",
+          "language": "Russian",
+          "multiverseid": 188765
+        },
+        {
+          "name": "原质粉",
+          "text": "{4}{W}，{T}，牺牲原质粉：将目标神器牌从你的坟墓场移回场上。",
+          "flavor": "「没有所谓的废铁。 只要有所需的结合触媒，这些东西全都可以修好。」 ～金属医师昆奈斯",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=187271&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": 187271
+        }
+      ],
+      "printings": [
+        "ALA"
+      ],
+      "originalText": "{4}{W}, {T}, Sacrifice Protomatter Powder: Return target artifact card from your graveyard to play.",
+      "originalType": "Artifact",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "347cf944-89f2-54ee-a087-563e14695492"
+    },
+    {
+      "name": "Battlefront Krushok",
+      "manaCost": "{4}{G}",
+      "cmc": 5.0,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Creature — Beast",
+      "supertypes": [],
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Beast"
+      ],
+      "rarity": "Uncommon",
+      "set": "FRF",
+      "setName": "Fate Reforged",
+      "text": "Battlefront Krushok can't be blocked by more than one creature.\nEach creature you control with a +1/+1 counter on it can't be blocked by more than one creature.",
+      "flavor": "Krushoks clear debris from fertile fields, fallow fields, and battlefields.",
+      "artist": "Steve Prescott",
+      "number": "125",
+      "power": "3",
+      "toughness": "4",
+      "layout": "normal",
+      "multiverseid": 391801,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=391801&type=card",
+      "watermark": "abzan",
+      "rulings": [
+        {
+          "date": "2014-11-24",
+          "text": "The second ability applies only as blockers are declared. If a creature you control with no +1/+1 counters on it becomes blocked by more than one creature, putting a +1/+1 counter on it won’t change or undo the block."
+        }
+      ],
+      "foreignNames": [
+        {
+          "name": "Frontlinien-Krushok",
+          "text": "Der Frontlinien-Krushok kann nicht von mehr als einer Kreatur geblockt werden.\nJede Kreatur, die du kontrollierst und auf der eine +1/+1-Marke liegt, kann nicht von mehr als einer Kreatur geblockt werden.",
+          "flavor": "Krushoks räumen jegliche Art von Feldern frei: fruchtbare Felder, brachliegende Felder und sogar Schlachtfelder.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=392356&type=card",
+          "language": "German",
+          "multiverseid": 392356
+        },
+        {
+          "name": "Krushok del frente de batalla",
+          "text": "El Krushok del frente de batalla no puede ser bloqueado por más de una criatura.\nCada criatura que controlas con un contador +1/+1 sobre ella no puede ser bloqueada por más de una criatura.",
+          "flavor": "Los krushok limpian de desechos los campos fértiles, los campos en barbecho y los campos de batalla.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=393651&type=card",
+          "language": "Spanish",
+          "multiverseid": 393651
+        },
+        {
+          "name": "Krushok de première ligne",
+          "text": "Le Krushok de première ligne ne peut pas être bloqué par plus d'une créature.\nChaque créature que vous contrôlez avec un marqueur +1/+1 sur elle ne peut pas être bloquée par plus d'une créature.",
+          "flavor": "Les krushoks évacuent les débris des champs fertiles, des champs en jachère et des champs de bataille.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=392541&type=card",
+          "language": "French",
+          "multiverseid": 392541
+        },
+        {
+          "name": "Krushok sul Fronte di Battaglia",
+          "text": "Il Krushok sul Fronte di Battaglia non può essere bloccato da più di una creatura.\nOgni creatura che controlli con un segnalino +1/+1 non può essere bloccata da più di una creatura.",
+          "flavor": "I krushok rimuovono i detriti dai campi coltivati, dai campi incolti e dai campi di battaglia.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=392726&type=card",
+          "language": "Italian",
+          "multiverseid": 392726
+        },
+        {
+          "name": "戦線クルショク",
+          "text": "戦線クルショクは、２体以上のクリーチャーによってはブロックされない。\nあなたがコントロールする＋１/＋１カウンターが置かれている各クリーチャーは、２体以上のクリーチャーによってはブロックされない。",
+          "flavor": "クルショクは肥沃な農地、休閑地、そして戦場から残骸を片付けてくれる。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=392911&type=card",
+          "language": "Japanese",
+          "multiverseid": 392911
+        },
+        {
+          "name": "최전방 크루쇽",
+          "text": "최전방 크루쇽은 둘 이상의 생물에게 방어당할 수 없다.\n당신이 조종하는 생물 중 +1/+1 카운터를 가진 각 생물은 둘 이상의 생물에게 방어당할 수 없다.",
+          "flavor": "크루쇽은 비옥한 땅, 휴경지, 전장 등 장소를 가리지 않고 잔해를 먹어치운다.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=393096&type=card",
+          "language": "Korean",
+          "multiverseid": 393096
+        },
+        {
+          "name": "Krushok da Frente de Batalha",
+          "text": "Krushok da Frente de Batalha não pode ser bloqueado por mais de uma criatura.\nCada criatura que você controla com um marcador +1/+1 não pode ser bloqueada por mais de uma criatura.",
+          "flavor": "Os krushoks removem os entulhos de campos férteis, campos vazios e campos de batalha.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=393281&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 393281
+        },
+        {
+          "name": "Авангардный Крушок",
+          "text": "Авангардный Крушок не может быть заблокирован более чем одним существом.\nКаждое существо под вашим контролем, на котором есть жетон +1/+1, не может быть заблокировано более чем одним существом.",
+          "flavor": "Крушоки убирают мусор с плодородных полей, полей под паром и полей битвы.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=393466&type=card",
+          "language": "Russian",
+          "multiverseid": 393466
+        },
+        {
+          "name": "前线寇犀",
+          "text": "前线寇犀不能被一个以上的生物阻挡。\n每个由你操控且其上有+1/+1指示物的生物均不能被一个以上的生物阻挡。",
+          "flavor": "寇犀不仅能扫荡沃地，扫荡闲地，还能扫荡阵地。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=391986&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": 391986
+        },
+        {
+          "name": "前線寇犀",
+          "text": "前線寇犀不能被一個以上的生物阻擋。\n每個由你操控且其上有+1/+1指示物的生物均不能被一個以上的生物阻擋。",
+          "flavor": "寇犀不僅能掃蕩沃地，掃蕩閒地，還能掃蕩陣地。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=392171&type=card",
+          "language": "Chinese Traditional",
+          "multiverseid": 392171
+        }
+      ],
+      "printings": [
+        "FRF"
+      ],
+      "originalText": "Battlefront Krushok can't be blocked by more than one creature.\nEach creature you control with a +1/+1 counter on it can't be blocked by more than one creature.",
+      "originalType": "Creature — Beast",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "8b1ecd04-b670-5416-b973-51c9cfb789c1"
+    },
+    {
+      "name": "Feral Krushok",
+      "manaCost": "{4}{G}",
+      "cmc": 5.0,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Creature — Beast",
+      "supertypes": [],
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Beast"
+      ],
+      "rarity": "Common",
+      "set": "FRF",
+      "setName": "Fate Reforged",
+      "flavor": "In a stunning act of diplomacy, Yasova Dragonclaw ceded a portion of Temur lands to the Sultai. Her clan protested until they saw she had given the Sultai the breeding grounds of the krushoks. They hadn't realized she had a sense of humor.",
+      "artist": "Kev Walker",
+      "number": "128",
+      "power": "5",
+      "toughness": "4",
+      "layout": "normal",
+      "multiverseid": 391831,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=391831&type=card",
+      "rulings": [],
+      "foreignNames": [
+        {
+          "name": "Wildes Krushok",
+          "text": null,
+          "flavor": "In einem verblüffenden Akt der Diplomatie trat Yasova Drachenklaue einen Teil der Temur-Lande an die Sultai ab. Ihr Klan protestierte lautstark, bis sie bemerkten, dass sie den Sultai das Brutgebiet der Krushok überlassen hatte. Bis dahin war ihnen gar nicht bewusst gewesen, dass ihr Khan Sinn für Humor hatte.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=392386&type=card",
+          "language": "German",
+          "multiverseid": 392386
+        },
+        {
+          "name": "Krushok salvaje",
+          "text": null,
+          "flavor": "En un acto diplomático sorprendente, Yasova Garradragón cedió una porción de territorio temur a los Sultai. Su clan protestó... hasta que vieron que les había regalado la zona de crianza de los krushok. No sabían que tuviese sentido del humor.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=393681&type=card",
+          "language": "Spanish",
+          "multiverseid": 393681
+        },
+        {
+          "name": "Krushok sauvage",
+          "text": null,
+          "flavor": "Dans un incroyable élan de diplomatie, Yasova Griffedragon céda une partie des terres temuriennes aux Sultaï. Les membres de son clan protestèrent avant de s'apercevoir qu'il s'agissait de la zone de reproduction des krushoks. Ils ne savaient pas qu'elle avait le sens de l'humour.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=392571&type=card",
+          "language": "French",
+          "multiverseid": 392571
+        },
+        {
+          "name": "Krushok Selvatico",
+          "text": null,
+          "flavor": "Con un incredibile gesto diplomatico, Yasova Artiglio di Drago cedette una parte delle terre Temur ai Sultai. I membri del suo clan protestarono, finché non si accorsero che si trattava del terreno di riproduzione dei krushok. Nessuno si aspettava che Yasova avesse senso dell'umorismo.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=392756&type=card",
+          "language": "Italian",
+          "multiverseid": 392756
+        },
+        {
+          "name": "残忍なクルショク",
+          "text": null,
+          "flavor": "驚くべき外交的英断として、龍爪のヤソヴァはティムールの領土の一部をスゥルタイに割譲した。氏族の者たちは抗議したが、後に彼女が割譲したのは実はクルショクの繁殖地であったことを知ることとなった。彼女にユーモアのセンスがあったことを、同じ氏族の者たちは知らなかったのである。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=392941&type=card",
+          "language": "Japanese",
+          "multiverseid": 392941
+        },
+        {
+          "name": "야생 크루쇽",
+          "text": null,
+          "flavor": "야소바 용발톱은 놀라운 외교술을 펼쳐 테무르 영토 일부를 술타이 부족에게 이양했다. 테무르 부족민들은 이 결정에 맹렬하게 반대했지만, 이양된 땅이 크루쇽의 번식지라는 사실을 알자 야소바를 비난하는 것을 멈췄다. 그들은 야소바가 유머감각을 가지고 있다는 것을 몰랐었다.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=393126&type=card",
+          "language": "Korean",
+          "multiverseid": 393126
+        },
+        {
+          "name": "Krushok Bestial",
+          "text": null,
+          "flavor": "Em um ato impressionante de diplomacia, Yasova Garra de Dragão cedeu parte das terras Temur para os Sultai. Seu clã protestou, até perceber que o território cedido aos Sultai era o local de reprodução dos krushoks. Eles não sabiam que ela tinha senso de humor.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=393311&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 393311
+        },
+        {
+          "name": "Свирепый Крушок",
+          "text": null,
+          "flavor": "Ясва Коготь Дракона сделала гениальный дипломатический ход, передав султайцам часть земель Темура. Возмущению ее клана не было предела, пока не стало ясно, что эти земли облюбовали для своих брачных игр крушоки. Собратья Ясвы и не подозревали, что у нее есть чувство юмора.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=393496&type=card",
+          "language": "Russian",
+          "multiverseid": 393496
+        },
+        {
+          "name": "野性寇犀",
+          "text": null,
+          "flavor": "龙爪娅绍娃先前将部分铁木尔领土割让给苏勒台以示好的决定激起了轩然大波。族人强烈反对，不过他们发现可汗让出的是寇犀的繁殖地后，才算了解到她的用心良苦。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=392016&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": 392016
+        },
+        {
+          "name": "野性寇犀",
+          "text": null,
+          "flavor": "龍爪婭紹娃先前將部分鐵木爾領土割讓給蘇勒台以示好的決定激起了軒然大波。族人強烈反對，不過他們發現可汗讓出的是寇犀的繁殖地後，才算了解到她的用心良苦。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=392201&type=card",
+          "language": "Chinese Traditional",
+          "multiverseid": 392201
+        }
+      ],
+      "printings": [
+        "FRF"
+      ],
+      "originalType": "Creature — Beast",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "d5816424-86f9-5b6c-a207-7ab29017477e"
+    },
+    {
+      "name": "Great-Horn Krushok",
+      "manaCost": "{4}{W}",
+      "cmc": 5.0,
+      "colors": [
+        "White"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Creature — Beast",
+      "supertypes": [],
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Beast"
+      ],
+      "rarity": "Common",
+      "set": "FRF",
+      "setName": "Fate Reforged",
+      "flavor": "Perfectly suited for life in the Shifting Wastes, the krushok is well protected by its horn, its hide, and its temper.",
+      "artist": "YW Tang",
+      "number": "13",
+      "power": "3",
+      "toughness": "5",
+      "layout": "normal",
+      "multiverseid": 391848,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=391848&type=card",
+      "rulings": [],
+      "foreignNames": [
+        {
+          "name": "Riesenhorn-Krushok",
+          "text": null,
+          "flavor": "Krushoks sind mit ihren Hörnern, ihrem Panzer und ihrem Temperament perfekt an das Leben in den Wandelnden Wüsten angepasst.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=392403&type=card",
+          "language": "German",
+          "multiverseid": 392403
+        },
+        {
+          "name": "Krushok grancuerno",
+          "text": null,
+          "flavor": "El krushok está perfectamente adaptado a vivir en los Yermos Cambiantes. Le protegen su cuerno, su pellejo y su mal genio.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=393698&type=card",
+          "language": "Spanish",
+          "multiverseid": 393698
+        },
+        {
+          "name": "Krushok à grande corne",
+          "text": null,
+          "flavor": "Parfaitement adapté à la vie des Landes changeantes, le krushok est protégé par sa corne, sa cuirasse et son tempérament.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=392588&type=card",
+          "language": "French",
+          "multiverseid": 392588
+        },
+        {
+          "name": "Krushok Grancorno",
+          "text": null,
+          "flavor": "Perfettamente adattato alla vita nelle Distese Cangianti, il krushok è ben protetto dal suo corno, dalla sua pelle spessa e dal suo temperamento.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=392773&type=card",
+          "language": "Italian",
+          "multiverseid": 392773
+        },
+        {
+          "name": "大角クルショク",
+          "text": null,
+          "flavor": "変容する荒野の生活に完璧に適応したクルショクは、その角と皮と気質によって固く守られている。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=392958&type=card",
+          "language": "Japanese",
+          "multiverseid": 392958
+        },
+        {
+          "name": "큰뿔 크루쇽",
+          "text": null,
+          "flavor": "변화하는 황무지에 완벽하게 적응한 크루쇽들은 뿔과 가죽, 거친 성질로 잘 무장되어 있다.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=393143&type=card",
+          "language": "Korean",
+          "multiverseid": 393143
+        },
+        {
+          "name": "Krushok de Chifre Longo",
+          "text": null,
+          "flavor": "Perfeitamente compatíveis com a vida nos Ermos Mutáveis, os krushok são bem protegidos por seu chifre, sua couraça e seu temperamento.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=393328&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 393328
+        },
+        {
+          "name": "Большерогий Крушок",
+          "text": null,
+          "flavor": "Крушок отлично приспособлен к жизни в Бродячих Пустошах. Его защищают рог, шкура и скверный характер.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=393513&type=card",
+          "language": "Russian",
+          "multiverseid": 393513
+        },
+        {
+          "name": "巨角寇犀",
+          "text": null,
+          "flavor": "寇犀的锐利尖角、糙厚外皮和暴躁脾气正是抵御变幻荒漠的最佳防护，极其适应此险恶环境。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=392033&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": 392033
+        },
+        {
+          "name": "巨角寇犀",
+          "text": null,
+          "flavor": "寇犀的銳利尖角、糙厚外皮和暴躁脾氣正是抵禦變幻荒漠的最佳防護，極其適應此險惡環境。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=392218&type=card",
+          "language": "Chinese Traditional",
+          "multiverseid": 392218
+        }
+      ],
+      "printings": [
+        "FRF"
+      ],
+      "originalType": "Creature — Beast",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "cd51e4c2-93cd-50e9-841a-bd4514569182"
+    },
+    {
+      "name": "Hypervolt Grasp",
+      "manaCost": "{2}{R}",
+      "cmc": 3.0,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R",
+        "U"
+      ],
+      "type": "Enchantment — Aura",
+      "supertypes": [],
+      "types": [
+        "Enchantment"
+      ],
+      "subtypes": [
+        "Aura"
+      ],
+      "rarity": "Uncommon",
+      "set": "GPT",
+      "setName": "Guildpact",
+      "text": "Enchant creature\nEnchanted creature has \"{T}: This creature deals 1 damage to any target.\"\n{1}{U}: Return Hypervolt Grasp to its owner's hand.",
+      "flavor": "Zap on. Zap off.",
+      "artist": "Mark Romanoski",
+      "number": "67",
+      "layout": "normal",
+      "multiverseid": 96840,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=96840&type=card",
+      "watermark": "gruul",
+      "rulings": [],
+      "foreignNames": [
+        {
+          "name": "Hochspannungsgriff",
+          "text": "Kreaturenverzauberung\nDie verzauberte Kreatur hat „{T}: Diese Kreatur fügt einer Kreatur oder einem Spieler deiner Wahl 1 Schadenspunkt zu\".\n{1}{U}: Bringe den Hochspannungsgriff auf die Hand seines Besitzers zurück.",
+          "flavor": "Anschalten. Losschießen.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=117751&type=card",
+          "language": "German",
+          "multiverseid": 117751
+        },
+        {
+          "name": "Abrazo hipervóltico",
+          "text": "Encantar criatura.\nLa criatura encantada tiene \"{T}: Esta criatura hace 1 punto de daño a la criatura o jugador objetivo.\"\n{1}{U}: Regresa el Abrazo hipervóltico a la mano de su propietario.",
+          "flavor": "Encendido. Apagado.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=118741&type=card",
+          "language": "Spanish",
+          "multiverseid": 118741
+        },
+        {
+          "name": "Emprise d'hypervolt",
+          "text": "Enchanter : créature\nLa créature enchantée a « {T} : Cette créature inflige 1 blessure à une cible, créature ou joueur. »\n{1}{U} : Renvoyez l'Emprise d'hypervolt dans la main de son propriétaire.",
+          "flavor": "Alternatif ou continu ?",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=117916&type=card",
+          "language": "French",
+          "multiverseid": 117916
+        },
+        {
+          "name": "Stretta Ipervoltaica",
+          "text": "Incanta creatura\nLa creatura incantata ha \"{T}: Questa creatura infligge 1 danno a una creatura o a un giocatore bersaglio\".\n{1}{U}: Il proprietario riprende in mano la Stretta Ipervoltaica.",
+          "flavor": "Sfreccia qui. Sfreccia là.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=118081&type=card",
+          "language": "Italian",
+          "multiverseid": 118081
+        },
+        {
+          "name": "超電撃の掌握",
+          "text": "エンチャント（クリーチャー）\nエンチャントされているクリーチャーは「{T}：クリーチャー１体かプレイヤー１人を対象とする。このクリーチャーはそれに１点のダメージを与える。」の能力を持つ。\n{1}{U}：超電撃の掌握をオーナーの手札に戻す。",
+          "flavor": "バシッと来て、 ズバッと退く。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=118246&type=card",
+          "language": "Japanese",
+          "multiverseid": 118246
+        },
+        {
+          "name": "Toque de Hipervolts",
+          "text": "Encantar Criatura\nA criatura encantada tem \"{T}: Esta criatura causa 1 ponto de dano à criatura alvo ou ao jogador alvo.\"\n{1}{U}: Devolve Toque de Hipervolts para a mão de seu dono.",
+          "flavor": "Zapt. Zupt.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=118411&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 118411
+        },
+        {
+          "name": "Шокирующий захват",
+          "text": "Зачаровать существо\nЗачарованное существо приобретает свойство \"{T}: Это существо наносит 1 повреждение целевому существу или игроку\".\n{1}{U}: Верните Шокирующий захват в руку владельца.",
+          "flavor": "Подать разряд. Отключить разряд.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=118576&type=card",
+          "language": "Russian",
+          "multiverseid": 118576
+        },
+        {
+          "name": "高压电攫",
+          "text": "生物结界\n受此结界的生物具有「{T}：此生物对目标生物或牌手造成1点伤害。」\n{1}{U}：将高压电攫移回其拥有者手上。",
+          "flavor": "通电。 断电。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=117586&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": 117586
+        }
+      ],
+      "printings": [
+        "GPT"
+      ],
+      "originalText": "Enchant creature\nEnchanted creature has \"{T}: This creature deals 1 damage to target creature or player.\"\n{1}{U}: Return Hypervolt Grasp to its owner's hand.",
+      "originalType": "Enchantment - Aura",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "da371196-c3f1-5dac-85f3-861d2ba37df8"
+    },
+    {
+      "name": "Vulshok Berserker",
+      "manaCost": "{3}{R}",
+      "cmc": 4.0,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Creature — Human Berserker",
+      "supertypes": [],
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Berserker"
+      ],
+      "rarity": "Common",
+      "set": "M11",
+      "setName": "Magic 2011",
+      "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)",
+      "flavor": "He will carve out a legend for himself with his own two hands.",
+      "artist": "Pete Venters",
+      "number": "159",
+      "power": "3",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": 208011,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=208011&type=card",
+      "rulings": [],
+      "foreignNames": [
+        {
+          "name": "Vulshok-Berserker",
+          "text": "Eile (Diese Kreatur kann angreifen und {T}, sobald sie unter deine Kontrolle kommt.)",
+          "flavor": "Die Spuren, die er mit seinen eigenen Händen hinterlässt, machen ihn zur Legende.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=221839&type=card",
+          "language": "German",
+          "multiverseid": 221839
+        },
+        {
+          "name": "Berserker vúlshok",
+          "text": "Prisa. (Esta criatura puede atacar y {T} tan pronto como entre bajo tu control.)",
+          "flavor": "Tallará su leyenda con sus propias manos.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=224958&type=card",
+          "language": "Spanish",
+          "multiverseid": 224958
+        },
+        {
+          "name": "Berserker vulshok",
+          "text": "Célérité (Cette créature peut attaquer et {T} dès le tour où elle arrive sous votre contrôle.)",
+          "flavor": "Il forgera sa propre légende de ses deux mains.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=222409&type=card",
+          "language": "French",
+          "multiverseid": 222409
+        },
+        {
+          "name": "Berserker Vulshok",
+          "text": "Rapidità (Questa creatura può attaccare e {T} non appena entra sotto il tuo controllo.)",
+          "flavor": "Farà una leggenda di se stesso con le sue stesse mani.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=225705&type=card",
+          "language": "Italian",
+          "multiverseid": 225705
+        },
+        {
+          "name": "ヴァルショクの狂戦士",
+          "text": "速攻 （このクリーチャーは、あなたのコントロール下になってすぐに攻撃したり{T}したりできる。）",
+          "flavor": "彼は己の二つの手で、己のための伝説を彫り上げる。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=226452&type=card",
+          "language": "Japanese",
+          "multiverseid": 226452
+        },
+        {
+          "name": "Vulshoque Enfurecido",
+          "text": "Ímpeto (Esta criatura pode atacar e {T} assim que entra sob seu controle.)",
+          "flavor": "Ele esculpirá sua própria lenda com as suas próprias mãos.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=225207&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 225207
+        },
+        {
+          "name": "Вулшок-Берсерк",
+          "text": "Ускорение (Это существо может атаковать и {T}, как только оно попадает под ваш контроль.)",
+          "flavor": "Он сложит о себе легенду своими руками.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=225456&type=card",
+          "language": "Russian",
+          "multiverseid": 225456
+        },
+        {
+          "name": "瓦许克狂战士",
+          "text": "敏捷 （此生物受你操控时便能攻击与{T}。）",
+          "flavor": "他将用自己的双手开创他的传说。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=226203&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": 226203
+        }
+      ],
+      "printings": [
+        "DDI",
+        "M11",
+        "MRD"
+      ],
+      "originalText": "Haste (This creature can attack and {T} as soon as it comes under your control.)",
+      "originalType": "Creature — Human Berserker",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "d641f454-b15b-5055-aee5-517e2847c26c"
+    },
+    {
+      "name": "Shock",
+      "manaCost": "{R}",
+      "cmc": 1.0,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Instant",
+      "supertypes": [],
+      "types": [
+        "Instant"
+      ],
+      "subtypes": [],
+      "rarity": "Common",
+      "set": "M12",
+      "setName": "Magic 2012",
+      "text": "Shock deals 2 damage to any target.",
+      "flavor": "\"The beauty of it is they never see it coming. Ever.\" —Razzix, sparkmage",
+      "artist": "Jon Foster",
+      "number": "154",
+      "layout": "normal",
+      "multiverseid": 245184,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=245184&type=card",
+      "rulings": [],
+      "foreignNames": [
+        {
+          "name": "Schock",
+          "text": "Schock fügt einer Kreatur oder einem Spieler deiner Wahl 2 Schadenspunkte zu.",
+          "flavor": "„Das Schöne daran ist, dass sie ihn nie kommen sehen. Niemals.\" —Razzix, Funkenmagier",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=263778&type=card",
+          "language": "German",
+          "multiverseid": 263778
+        },
+        {
+          "name": "Choque",
+          "text": "El Choque hace 2 puntos de daño a la criatura o jugador objetivo.",
+          "flavor": "\"Lo hermoso que tiene es que nunca lo ven venir. Nunca.\" —Rázzix, magochispa",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=265023&type=card",
+          "language": "Spanish",
+          "multiverseid": 265023
+        },
+        {
+          "name": "Choc",
+          "text": "Le Choc inflige 2 blessures à une cible, créature ou joueur.",
+          "flavor": "« Le plus beau, c'est qu'ils ne le voient jamais venir. Jamais. » —Razzix, étincemage",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=263529&type=card",
+          "language": "French",
+          "multiverseid": 263529
+        },
+        {
+          "name": "Shock",
+          "text": "Lo Shock infligge 2 danni a una creatura o a un giocatore bersaglio.",
+          "flavor": "\"La cosa bella è che non lo vedono mai arrivare. Mai.\" —Razzix, magoscintilla",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=264027&type=card",
+          "language": "Italian",
+          "multiverseid": 264027
+        },
+        {
+          "name": "ショック",
+          "text": "クリーチャー１体かプレイヤー１人を対象とする。ショックはそれに２点のダメージを与える。",
+          "flavor": "「その美しさは、それが飛んでくるのが見えないってことだな。 絶対に。」 ――火花魔道士、ラジックス",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=264276&type=card",
+          "language": "Japanese",
+          "multiverseid": 264276
+        },
+        {
+          "name": "쇼크",
+          "text": "생물 한 개나 플레이어 한 명을 목표로 정한다. 쇼크는 그 목표에게 피해 2점을 입힌다.",
+          "flavor": "\"이게 효과적인 이유가 뭔지 알아? 아무도 이걸 예측하지 않기 때문이지.\"—불꽃도사 라직스",
+          "imageUrl": null,
+          "language": "Korean",
+          "multiverseid": null
+        },
+        {
+          "name": "Choque",
+          "text": "Choque causa 2 pontos de dano à criatura ou ao jogador alvo.",
+          "flavor": "\"O melhor de tudo é que eles são sempre pegos desprevenidos. Sempre.\" — Razzix, mago de centelhas",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=264525&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 264525
+        },
+        {
+          "name": "Шок",
+          "text": "Шок наносит 2 повреждения целевому существу или игроку.",
+          "flavor": "«Вся прелесть в том, что его не ждут. Никогда». — Раззикс, электромаг",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=264774&type=card",
+          "language": "Russian",
+          "multiverseid": 264774
+        },
+        {
+          "name": "电震",
+          "text": "电震对目标生物或牌手造成2点伤害。",
+          "flavor": "「最令人激赏的一点，是他们完全浑然不知。 完完全全。」 ～火花法师剌极",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=263031&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": 263031
+        },
+        {
+          "name": "電震",
+          "text": "電震對目標生物或玩家造成2點傷害。",
+          "flavor": "「最令人激賞的一點，是他們完全渾然不知。 完完全全。」 ～火花法師剌極",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=263280&type=card",
+          "language": "Chinese Traditional",
+          "multiverseid": 263280
+        }
+      ],
+      "printings": [
+        "10E",
+        "6ED",
+        "7ED",
+        "8ED",
+        "9ED",
+        "AER",
+        "BBD",
+        "BTD",
+        "DDN",
+        "DPA",
+        "FNM",
+        "M12",
+        "M14",
+        "M19",
+        "M20",
+        "ONS",
+        "PMEI",
+        "PRM",
+        "PS11",
+        "PSAL",
+        "STH",
+        "WC98",
+        "WC99"
+      ],
+      "originalText": "Shock deals 2 damage to target creature or player.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Brawl",
+          "legality": "Legal"
+        },
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Future",
+          "legality": "Legal"
+        },
+        {
+          "format": "Historic",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Standard",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "f896848e-20bc-574a-bf55-0d5b2e432705"
+    },
+    {
+      "name": "Shock",
+      "manaCost": "{R}",
+      "cmc": 1.0,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Instant",
+      "supertypes": [],
+      "types": [
+        "Instant"
+      ],
+      "subtypes": [],
+      "rarity": "Common",
+      "set": "M14",
+      "setName": "Magic 2014",
+      "text": "Shock deals 2 damage to any target.",
+      "artist": "Jon Foster",
+      "number": "155",
+      "layout": "normal",
+      "multiverseid": 370654,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=370654&type=card",
+      "rulings": [],
+      "foreignNames": [
+        {
+          "name": "Schock",
+          "text": "Schock fügt einer Kreatur oder einem Spieler deiner Wahl 2 Schadenspunkte zu.",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=371401&type=card",
+          "language": "German",
+          "multiverseid": 371401
+        },
+        {
+          "name": "Choque",
+          "text": "El Choque hace 2 puntos de daño a la criatura o jugador objetivo.",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373144&type=card",
+          "language": "Spanish",
+          "multiverseid": 373144
+        },
+        {
+          "name": "Choc",
+          "text": "Le Choc inflige 2 blessures à une cible, créature ou joueur.",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=371650&type=card",
+          "language": "French",
+          "multiverseid": 371650
+        },
+        {
+          "name": "Shock",
+          "text": "Lo Shock infligge 2 danni a una creatura o a un giocatore bersaglio.",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=371899&type=card",
+          "language": "Italian",
+          "multiverseid": 371899
+        },
+        {
+          "name": "ショック",
+          "text": "クリーチャー１体かプレイヤー１人を対象とする。ショックはそれに２点のダメージを与える。",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=372148&type=card",
+          "language": "Japanese",
+          "multiverseid": 372148
+        },
+        {
+          "name": "충격",
+          "text": "생물 한 개 또는 플레이어 한 명을 목표로 정한다. 충격은 그 목표에 피해 2점을 입힌다.",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=372397&type=card",
+          "language": "Korean",
+          "multiverseid": 372397
+        },
+        {
+          "name": "Choque",
+          "text": "Choque causa 2 pontos de dano à criatura ou ao jogador alvo.",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=372646&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 372646
+        },
+        {
+          "name": "Шок",
+          "text": "Шок наносит 2 повреждения целевому существу или игроку.",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=372895&type=card",
+          "language": "Russian",
+          "multiverseid": 372895
+        },
+        {
+          "name": "电震",
+          "text": "电震对目标生物或牌手造成2点伤害。",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=370903&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": 370903
+        },
+        {
+          "name": "電震",
+          "text": "電震對目標生物或玩家造成2點傷害。",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=371152&type=card",
+          "language": "Chinese Traditional",
+          "multiverseid": 371152
+        }
+      ],
+      "printings": [
+        "10E",
+        "6ED",
+        "7ED",
+        "8ED",
+        "9ED",
+        "AER",
+        "BBD",
+        "BTD",
+        "DDN",
+        "DPA",
+        "FNM",
+        "M12",
+        "M14",
+        "M19",
+        "M20",
+        "ONS",
+        "PMEI",
+        "PRM",
+        "PS11",
+        "PSAL",
+        "STH",
+        "WC98",
+        "WC99"
+      ],
+      "originalText": "Shock deals 2 damage to target creature or player.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Brawl",
+          "legality": "Legal"
+        },
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Future",
+          "legality": "Legal"
+        },
+        {
+          "format": "Historic",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Standard",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "b7d07c38-2941-570e-a618-d200df010bd2"
+    },
+    {
+      "name": "Shock",
+      "manaCost": "{R}",
+      "cmc": 1.0,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Instant",
+      "supertypes": [],
+      "types": [
+        "Instant"
+      ],
+      "subtypes": [],
+      "rarity": "Common",
+      "set": "M19",
+      "setName": "Core Set 2019",
+      "text": "Shock deals 2 damage to any target.",
+      "flavor": "The tools of invention became the weapons of revolution.",
+      "artist": "Jason Rainville",
+      "number": "156",
+      "layout": "normal",
+      "multiverseid": 447292,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=447292&type=card",
+      "rulings": [],
+      "foreignNames": [
+        {
+          "name": "Schock",
+          "text": "Der Schock fügt einem Ziel deiner Wahl 2 Schadenspunkte zu.",
+          "flavor": "Die Werkzeuge der Erfinder wurden zu Waffen der Revolution.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=447573&type=card",
+          "language": "German",
+          "multiverseid": 447573
+        },
+        {
+          "name": "Choque",
+          "text": "El Choque hace 2 puntos de daño a cualquier objetivo.",
+          "flavor": "Las herramientas de invención se convirtieron en las armas de la revolución.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=447854&type=card",
+          "language": "Spanish",
+          "multiverseid": 447854
+        },
+        {
+          "name": "Choc",
+          "text": "Le Choc inflige 2 blessures à n'importe quelle cible.",
+          "flavor": "Les outils de l'invention devinrent les armes de la révolution.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=448135&type=card",
+          "language": "French",
+          "multiverseid": 448135
+        },
+        {
+          "name": "Shock",
+          "text": "Lo Shock infligge 2 danni a un qualsiasi bersaglio.",
+          "flavor": "Gli strumenti dell'invenzione divennero le armi della rivoluzione.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=448416&type=card",
+          "language": "Italian",
+          "multiverseid": 448416
+        },
+        {
+          "name": "ショック",
+          "text": "クリーチャー１体かプレインズウォーカー１体かプレイヤー１人を対象とする。ショックはそれに２点のダメージを与える。",
+          "flavor": "発明の賜物が革命の業物になった。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=448697&type=card",
+          "language": "Japanese",
+          "multiverseid": 448697
+        },
+        {
+          "name": "충격",
+          "text": "원하는 목표를 정한다. 충격은 그 목표에게 피해 2점을 입힌다.",
+          "flavor": "발명의 도구가 혁명의 무기가 되었다.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=448978&type=card",
+          "language": "Korean",
+          "multiverseid": 448978
+        },
+        {
+          "name": "Choque",
+          "text": "Choque causa 2 pontos de dano a qualquer alvo.",
+          "flavor": "As ferramentas da invenção tornaram-se as armas da revolução.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=449259&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 449259
+        },
+        {
+          "name": "Шок",
+          "text": "Шок наносит 2 повреждения любой цели.",
+          "flavor": "Инструменты изобретателей стали оружием революции.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=449540&type=card",
+          "language": "Russian",
+          "multiverseid": 449540
+        },
+        {
+          "name": "电震",
+          "text": "电震对任意一个目标造成2点伤害。",
+          "flavor": "发明的工具成为了革命的武器。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=449821&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": 449821
+        },
+        {
+          "name": "電震",
+          "text": "電震對任意一個目標造成2點傷害。",
+          "flavor": "發明的工具成為了革命的武器。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=450102&type=card",
+          "language": "Chinese Traditional",
+          "multiverseid": 450102
+        }
+      ],
+      "printings": [
+        "10E",
+        "6ED",
+        "7ED",
+        "8ED",
+        "9ED",
+        "AER",
+        "BBD",
+        "BTD",
+        "DDN",
+        "DPA",
+        "FNM",
+        "M12",
+        "M14",
+        "M19",
+        "M20",
+        "ONS",
+        "PMEI",
+        "PRM",
+        "PS11",
+        "PSAL",
+        "STH",
+        "WC98",
+        "WC99"
+      ],
+      "originalText": "Shock deals 2 damage to any target.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Brawl",
+          "legality": "Legal"
+        },
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Future",
+          "legality": "Legal"
+        },
+        {
+          "format": "Historic",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Standard",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "a2513497-ca4c-5732-a322-b9a8a391c468"
+    },
+    {
+      "name": "Shock",
+      "manaCost": "{R}",
+      "cmc": 1.0,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Instant",
+      "supertypes": [],
+      "types": [
+        "Instant"
+      ],
+      "subtypes": [],
+      "rarity": "Common",
+      "set": "M20",
+      "setName": "Core Set 2020",
+      "text": "Shock deals 2 damage to any target.",
+      "flavor": "\"I love this thing! It's my best invention since the boulderfist gauntlet!\"",
+      "artist": "Jason Rainville",
+      "number": "160",
+      "layout": "normal",
+      "multiverseid": 466914,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=466914&type=card",
+      "rulings": [],
+      "foreignNames": [
+        {
+          "name": "Schock",
+          "text": "Der Schock fügt einem Ziel deiner Wahl 2 Schadenspunkte zu.",
+          "flavor": "„Ich liebe dieses Teil! Meine beste Erfindung seit dem Felsfausthandschuh!\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=467194&type=card",
+          "language": "German",
+          "multiverseid": 467194
+        },
+        {
+          "name": "Choque",
+          "text": "El Choque hace 2 puntos de daño a cualquier objetivo.",
+          "flavor": "\"¡Me encanta este trasto! ¡Es mi mejor invento desde el guantelete puñorroca!\".",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=467474&type=card",
+          "language": "Spanish",
+          "multiverseid": 467474
+        },
+        {
+          "name": "Choc",
+          "text": "Le Choc inflige 2 blessures à n'importe quelle cible.",
+          "flavor": "« J'adore ce truc ! C'est ma meilleure invention depuis le gantelet rochepoing ! »",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=467754&type=card",
+          "language": "French",
+          "multiverseid": 467754
+        },
+        {
+          "name": "Shock",
+          "text": "Lo Shock infligge 2 danni a un qualsiasi bersaglio.",
+          "flavor": "\"Adoro questo aggeggio! È la mia migliore invenzione dai tempi del guanto pugnomacigno!\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=468034&type=card",
+          "language": "Italian",
+          "multiverseid": 468034
+        },
+        {
+          "name": "ショック",
+          "text": "クリーチャー１体かプレインズウォーカー１体かプレイヤー１人を対象とする。ショックはそれに２点のダメージを与える。",
+          "flavor": "「これはとても気に入ってるんだ。岩石篭手に次ぐ発明品だね。」",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=468314&type=card",
+          "language": "Japanese",
+          "multiverseid": 468314
+        },
+        {
+          "name": "충격",
+          "text": "원하는 목표를 정한다. 충격은 그 목표에게 피해 2점을 입힌다.",
+          "flavor": "\"이거 맘에 드는데! 바위주먹 장갑 이래로 내가 만들어낸 가장 멋진 발명품이야!\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=468594&type=card",
+          "language": "Korean",
+          "multiverseid": 468594
+        },
+        {
+          "name": "Choque",
+          "text": "Choque causa 2 pontos de dano a qualquer alvo.",
+          "flavor": "\"Eu adoro esse negócio! É a minha melhor invenção desde a manopla do punhedregulho!\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=468874&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 468874
+        },
+        {
+          "name": "Шок",
+          "text": "Шок наносит 2 повреждения любой цели.",
+          "flavor": "«Мне нравится эта штука! Мое лучшее изобретение после булыжной рукавицы!»",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=469154&type=card",
+          "language": "Russian",
+          "multiverseid": 469154
+        },
+        {
+          "name": "电震",
+          "text": "电震对任意一个目标造成2点伤害。",
+          "flavor": "「我爱死这东西了！这是岩锤护手以来我最棒的发明！」",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=469434&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": 469434
+        },
+        {
+          "name": "電震",
+          "text": "電震對任意一個目標造成2點傷害。",
+          "flavor": "「我愛死這東西了！這是岩鎚護手以來我最棒的發明！」",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=469714&type=card",
+          "language": "Chinese Traditional",
+          "multiverseid": 469714
+        }
+      ],
+      "printings": [
+        "10E",
+        "6ED",
+        "7ED",
+        "8ED",
+        "9ED",
+        "AER",
+        "BBD",
+        "BTD",
+        "DDN",
+        "DPA",
+        "FNM",
+        "M12",
+        "M14",
+        "M19",
+        "M20",
+        "ONS",
+        "PMEI",
+        "PRM",
+        "PS11",
+        "PSAL",
+        "STH",
+        "WC98",
+        "WC99"
+      ],
+      "originalText": "Shock deals 2 damage to any target.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Brawl",
+          "legality": "Legal"
+        },
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Future",
+          "legality": "Legal"
+        },
+        {
+          "format": "Historic",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Standard",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "c7f94665-71d7-55ed-a186-efb46c3ade90"
+    },
+    {
+      "name": "Vulshok Refugee",
+      "manaCost": "{1}{R}{R}",
+      "cmc": 3.0,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Creature — Human Warrior",
+      "supertypes": [],
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Warrior"
+      ],
+      "rarity": "Uncommon",
+      "set": "NPH",
+      "setName": "New Phyrexia",
+      "text": "Protection from red",
+      "flavor": "\"I will carve my people's vengeance on the face of Phyrexia.\"",
+      "artist": "Wayne Reynolds",
+      "number": "101",
+      "power": "3",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": 218038,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=218038&type=card",
+      "watermark": "mirran",
+      "rulings": [],
+      "foreignNames": [
+        {
+          "name": "Vulshok-Flüchtling",
+          "text": "Schutz vor Rot",
+          "flavor": "„Ich werde die Rache meines Volkes in die Oberfläche Phyrexias einhämmern.\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=247759&type=card",
+          "language": "German",
+          "multiverseid": 247759
+        },
+        {
+          "name": "Refugiado vúlshok",
+          "text": "Protección contra rojo.",
+          "flavor": "\"Grabaré la venganza de mi pueblo sobre el rostro de Pirexia.\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=248459&type=card",
+          "language": "Spanish",
+          "multiverseid": 248459
+        },
+        {
+          "name": "Réfugié vulshok",
+          "text": "Protection contre le rouge",
+          "flavor": "« Je graverai la vengeance de mon peuple sur la face de Phyrexia. »",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=247934&type=card",
+          "language": "French",
+          "multiverseid": 247934
+        },
+        {
+          "name": "Profugo Vulshok",
+          "text": "Protezione dal rosso",
+          "flavor": "\"Scolpirò la vendetta del mio popolo sulla faccia di Phyrexia.\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=248284&type=card",
+          "language": "Italian",
+          "multiverseid": 248284
+        },
+        {
+          "name": "ヴァルショクの難民",
+          "text": "プロテクション（赤）",
+          "flavor": "「我が民の復讐の念をファイレクシアの顔に刻んでやる。」",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=248809&type=card",
+          "language": "Japanese",
+          "multiverseid": 248809
+        },
+        {
+          "name": "Refugiado Vulshoque",
+          "text": "Proteção contra o vermelho",
+          "flavor": "\"Esculpirei a vingança de meu povo na face de Phyrexia.\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=248109&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 248109
+        },
+        {
+          "name": "Вулшок-Беженец",
+          "text": "Защита от красного",
+          "flavor": "«Я вырежу месть моего народа на лице Фирексии».",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=248984&type=card",
+          "language": "Russian",
+          "multiverseid": 248984
+        },
+        {
+          "name": "瓦许克避难者",
+          "text": "反红保护",
+          "flavor": "「我将把族人的复仇刻在非瑞克西亚脸上。」",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=248634&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": 248634
+        },
+        {
+          "name": "瓦許克避難者",
+          "text": "反紅保護",
+          "flavor": "「我將把族人的復仇刻在非瑞克西亞臉上。」",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=249159&type=card",
+          "language": "Chinese Traditional",
+          "multiverseid": 249159
+        }
+      ],
+      "printings": [
+        "NPH"
+      ],
+      "originalText": "Protection from red",
+      "originalType": "Creature — Human Warrior",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "b9a84f36-e169-578a-b236-d0910aa47f73"
+    },
+    {
+      "name": "Staggershock",
+      "manaCost": "{2}{R}",
+      "cmc": 3.0,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Instant",
+      "supertypes": [],
+      "types": [
+        "Instant"
+      ],
+      "subtypes": [],
+      "rarity": "Common",
+      "set": "ROE",
+      "setName": "Rise of the Eldrazi",
+      "text": "Staggershock deals 2 damage to any target.\nRebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
+      "artist": "Raymond Swanland",
+      "number": "166",
+      "layout": "normal",
+      "multiverseid": 193571,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=193571&type=card",
+      "rulings": [
+        {
+          "date": "2010-06-15",
+          "text": "If a spell with rebound that you cast from your hand doesn’t resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won’t get to cast it again next turn."
+        },
+        {
+          "date": "2010-06-15",
+          "text": "If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent’s hand due to Sen Triplets), rebound won’t have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel)."
+        },
+        {
+          "date": "2010-06-15",
+          "text": "If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves."
+        },
+        {
+          "date": "2010-06-15",
+          "text": "Rebound will have no effect on copies of spells because you don’t cast them from your hand."
+        },
+        {
+          "date": "2010-06-15",
+          "text": "If you cast a spell with rebound from your hand and it resolves, it isn’t put into your graveyard. Rather, it’s exiled directly from the stack. Effects that care about cards being put into your graveyard won’t do anything."
+        },
+        {
+          "date": "2010-06-15",
+          "text": "At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card’s type (if it’s a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law)."
+        },
+        {
+          "date": "2010-06-15",
+          "text": "If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won’t get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps)."
+        },
+        {
+          "date": "2010-06-15",
+          "text": "If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won’t go back to exile."
+        }
+      ],
+      "foreignNames": [
+        {
+          "name": "Taumelschock",
+          "text": "Der Taumelschock fügt einer Kreatur oder einem Spieler deiner Wahl 2 Schadenspunkte zu.\nAbprall (Falls du diesen Zauberspruch aus deiner Hand wirkst, schicke ihn ins Exil, sowie er verrechnet wird. Du kannst zu Beginn deines nächsten Versorgungssegments diese Karte aus dem Exil wirken, ohne ihre Manakosten zu bezahlen.)",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=217405&type=card",
+          "language": "German",
+          "multiverseid": 217405
+        },
+        {
+          "name": "Choque tambaleador",
+          "text": "El Choque tambaleador hace 2 puntos de daño a la criatura o jugador objetivo.\nRebote. (Si lanzas este hechizo de tu mano, exílialo en cuanto se resuelve. Al comienzo de tu próximo mantenimiento, puedes lanzar esta carta desde el exilio sin pagar su coste de maná.)",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=217157&type=card",
+          "language": "Spanish",
+          "multiverseid": 217157
+        },
+        {
+          "name": "Ébranlechoc",
+          "text": "L'Ébranlechoc inflige 2 blessures à une cible, créature ou joueur.\nRebond (Si vous lancez ce sort depuis votre main, exilez-le au moment où il se résout. Au début de votre prochain entretien, vous pouvez lancer cette carte depuis l'exil sans payer son coût de mana.)",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=215669&type=card",
+          "language": "French",
+          "multiverseid": 215669
+        },
+        {
+          "name": "Colpo Barcollante",
+          "text": "Il Colpo Barcollante infligge 2 danni a una creatura o a un giocatore bersaglio.\nRipresa (Se lanci questa magia dalla tua mano, esiliala quando si risolve. All'inizio del tuo prossimo mantenimento, puoi lanciare questa carta dall'esilio senza pagare il suo costo di mana.)",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=216413&type=card",
+          "language": "Italian",
+          "multiverseid": 216413
+        },
+        {
+          "name": "よろめきショック",
+          "text": "クリーチャー１体かプレイヤー１人を対象とする。よろめきショックはそれに２点のダメージを与える。\n反復 （あなたがこの呪文をあなたの手札から唱えた場合、それの解決に際し、それを追放する。 あなたの次のアップキープの開始時に、あなたはこのカードを追放領域からマナ・コストを支払うことなく唱えてもよい。）",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=216661&type=card",
+          "language": "Japanese",
+          "multiverseid": 216661
+        },
+        {
+          "name": "Tonto-choque",
+          "text": "Tonto-choque causa 2 pontos de dano à criatura ou ao jogador alvo.\nRebote (Se conjurar esta mágica da sua mão, exile-a quando ela for resolvida. No início de sua próxima manutenção, você poderá conjurar este card do exílio sem pagar seu custo de mana.)",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=216909&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 216909
+        },
+        {
+          "name": "Сотрясающий Шок",
+          "text": "Сотрясающий Шок наносит 2 повреждения целевому существу или игроку.\nОтскок (Если вы разыгрываете это заклинание из вашей руки, изгоните его в момент его разрешения. В начале вашего следующего шага поддержки вы можете разыграть эту карту из изгнания без уплаты ее мана-стоимости.)",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=215917&type=card",
+          "language": "Russian",
+          "multiverseid": 215917
+        },
+        {
+          "name": "撼动击",
+          "text": "撼动击对目标生物或牌手造成2点伤害。\n弹回 （如果你从你手上施放此牌，于它结算时将之放逐。 在你的下一个维持开始时，你可以从放逐区施放此牌，且不须支付其法术力费用。）",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=216165&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": 216165
+        }
+      ],
+      "printings": [
+        "IMA",
+        "PRM",
+        "PROE",
+        "ROE"
+      ],
+      "originalText": "Staggershock deals 2 damage to target creature or player.\nRebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "6d79401e-ec2d-5f8d-8c7c-8961aa90cf37"
+    },
+    {
+      "name": "Vulshok Heartstoker",
+      "manaCost": "{2}{R}",
+      "cmc": 3.0,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Creature — Human Shaman",
+      "supertypes": [],
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Shaman"
+      ],
+      "rarity": "Common",
+      "set": "SOM",
+      "setName": "Scars of Mirrodin",
+      "text": "When Vulshok Heartstoker enters the battlefield, target creature gets +2/+0 until end of turn.",
+      "flavor": "He fashions stirring words with as much passion as a smith fashioning a warhammer.",
+      "artist": "Shelly Wan",
+      "number": "107",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": 194320,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=194320&type=card",
+      "watermark": "mirran",
+      "rulings": [],
+      "foreignNames": [
+        {
+          "name": "Vulshok-Blutanfacher",
+          "text": "Wenn der Vulshok-Blutanfacher ins Spiel kommt, erhält eine Kreatur deiner Wahl +2/+0 bis zum Ende des Zuges.",
+          "flavor": "Er gestaltet aufrührende Reden mit so viel Leidenschaft wie ein Schmied, der sich einen Kriegshammer fertigt.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=231151&type=card",
+          "language": "German",
+          "multiverseid": 231151
+        },
+        {
+          "name": "Atizacorazones vúlshok",
+          "text": "Cuando el Atizacorazones vúlshok entre al campo de batalla, la criatura objetivo obtiene +2/+0 hasta el final del turno.",
+          "flavor": "Crea palabras conmovedoras con tanta pasión como un herrero al forjar un martillo de guerra.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=232645&type=card",
+          "language": "Spanish",
+          "multiverseid": 232645
+        },
+        {
+          "name": "Chauffecœur vulshok",
+          "text": "Quand le Chauffecœur vulshok arrive sur le champ de bataille, la créature ciblée gagne +2/+0 jusqu'à la fin du tour.",
+          "flavor": "Il forge des mots d'inspiration avec autant de passion qu'un forgeron fabriquant un marteau de guerre.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=231898&type=card",
+          "language": "French",
+          "multiverseid": 231898
+        },
+        {
+          "name": "Attizzacuori Vulshok",
+          "text": "Quando l'Attizzacuori Vulshok entra nel campo di battaglia, una creatura bersaglio prende +2/+0 fino alla fine del turno.",
+          "flavor": "Forgia parole emozionanti con la stessa passione con cui un fabbro forgia un martello da guerra.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=232894&type=card",
+          "language": "Italian",
+          "multiverseid": 232894
+        },
+        {
+          "name": "ヴァルショクの心臓焚き",
+          "text": "ヴァルショクの心臓焚きが戦場に出たとき、クリーチャー１体を対象とする。それはターン終了時まで＋２/＋０の修整を受ける。",
+          "flavor": "鍛冶屋が戦槌を作り出すのと同じ程の情熱で、彼は奮起の言葉を作り出す。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=231649&type=card",
+          "language": "Japanese",
+          "multiverseid": 231649
+        },
+        {
+          "name": "Animofoguista Vulshoque",
+          "text": "Quando Animofoguista Vulshoque entra no campo de batalha, a criatura alvo recebe +2/+0 até o final do turno.",
+          "flavor": "Ele cria palavras comoventes com tanto entusiasmo quanto um ferreiro cria um martelo de guerra.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=230902&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 230902
+        },
+        {
+          "name": "Вулшокский Разжигатель Сердец",
+          "text": "Когда Вулшокский Разжигатель Сердец выходит на поле битвы, целевое существо получает +2/+0 до конца хода.",
+          "flavor": "Он придает форму разящим словам так же страстно, как кузнец придает форму боевому молоту.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=231400&type=card",
+          "language": "Russian",
+          "multiverseid": 231400
+        },
+        {
+          "name": "瓦许克心炉师",
+          "text": "当瓦许克心炉师进战场时，目标生物得+2/+0直到回合结束。",
+          "flavor": "他以激情创作激励人心的话语，正如铁匠创作战锤。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=232396&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": 232396
+        },
+        {
+          "name": "瓦許克心爐師",
+          "text": "當瓦許克心爐師進戰場時，目標生物得+2/+0直到回合結束。",
+          "flavor": "他以激情創作激勵人心的話語，正如鐵匠創作戰鎚。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=232147&type=card",
+          "language": "Chinese Traditional",
+          "multiverseid": 232147
+        }
+      ],
+      "printings": [
+        "SOM"
+      ],
+      "originalText": "When Vulshok Heartstoker enters the battlefield, target creature gets +2/+0 until end of turn.",
+      "originalType": "Creature — Human Shaman",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "ba64cbd6-2768-5272-830b-15bb0e4451f3"
+    },
+    {
+      "name": "Vulshok Replica",
+      "manaCost": "{3}",
+      "cmc": 3.0,
+      "colors": [],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Artifact Creature — Berserker",
+      "supertypes": [],
+      "types": [
+        "Artifact",
+        "Creature"
+      ],
+      "subtypes": [
+        "Berserker"
+      ],
+      "rarity": "Common",
+      "set": "SOM",
+      "setName": "Scars of Mirrodin",
+      "text": "{1}{R}, Sacrifice Vulshok Replica: It deals 3 damage to target player or planeswalker.",
+      "flavor": "All the fury of the Vulshok with only a trace of their recklessness.",
+      "artist": "Zoltan Boros & Gabor Szikszai",
+      "number": "221",
+      "power": "3",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 209034,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=209034&type=card",
+      "watermark": "mirran",
+      "rulings": [],
+      "foreignNames": [
+        {
+          "name": "Vulshok-Ebenbild",
+          "text": "{1}{R}, opfere das Vulshok-Ebenbild: Das Vulshok-Ebenbild fügt einem Spieler deiner Wahl 3 Schadenspunkte zu.",
+          "flavor": "Die ganze Wut der Vulshok, doch nur eine Spur ihres Leichtsinns.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=231265&type=card",
+          "language": "German",
+          "multiverseid": 231265
+        },
+        {
+          "name": "Réplica de vúlshok",
+          "text": "{1}{R}, sacrificar la Réplica de vúlshok: La Réplica de vúlshok hace 3 puntos de daño al jugador objetivo.",
+          "flavor": "Toda la furia de los vúlshok pero sólo un poco de su imprudencia.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=232759&type=card",
+          "language": "Spanish",
+          "multiverseid": 232759
+        },
+        {
+          "name": "Reproduction vulshoke",
+          "text": "{1}{R}, sacrifiez la Reproduction vulshoke : La Reproduction vulshoke inflige 3 blessures à un joueur ciblé.",
+          "flavor": "Toute la fureur des Vulshoks mais juste une trace de leur témérité.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=232012&type=card",
+          "language": "French",
+          "multiverseid": 232012
+        },
+        {
+          "name": "Replicante Vulshok",
+          "text": "{1}{R}, Sacrifica il Replicante Vulshok: Il Replicante Vulshok infligge 3 danni a un giocatore bersaglio.",
+          "flavor": "Tutta la rabbia dei Vulshok con solo una traccia della loro imprudenza.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=233008&type=card",
+          "language": "Italian",
+          "multiverseid": 233008
+        },
+        {
+          "name": "ヴァルショクの模造品",
+          "text": "{1}{R}, ヴァルショクの模造品を生け贄に捧げる：プレイヤー１人を対象とする。ヴァルショクの模造品はそのプレイヤーに３点のダメージを与える。",
+          "flavor": "無謀さの痕跡だけを備えたヴァルショクの怒りのすべて。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=231763&type=card",
+          "language": "Japanese",
+          "multiverseid": 231763
+        },
+        {
+          "name": "Réplica de Vulshoque",
+          "text": "{1}{R}, Sacrifique Réplica de Vulshoque: Réplica de Vulshoque causa 3 pontos de dano ao jogador alvo.",
+          "flavor": "Toda a fúria dos vulshoques com apenas um mínimo de sua imprudência.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=231016&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 231016
+        },
+        {
+          "name": "Вулшок-Репликант",
+          "text": "{1}{R}, пожертвуйте Вулшока-Репликанта: Вулшок-Репликант наносит 3 повреждения целевому игроку.",
+          "flavor": "Вся ярость вулшоков и лишь намек на их бесшабашность.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=231514&type=card",
+          "language": "Russian",
+          "multiverseid": 231514
+        },
+        {
+          "name": "瓦许克摹制品",
+          "text": "{1}{R}，牺牲瓦许克摹制品：瓦许克摹制品对目标牌手造成3点伤害。",
+          "flavor": "具有瓦许克人的怒火，但几乎不含其急躁。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=232510&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": 232510
+        },
+        {
+          "name": "瓦許克摹製品",
+          "text": "{1}{R}，犧牲瓦許克摹製品：瓦許克摹製品對目標玩家造成3點傷害。",
+          "flavor": "具有瓦許克人的怒火，但幾乎不含其急躁。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=232261&type=card",
+          "language": "Chinese Traditional",
+          "multiverseid": 232261
+        }
+      ],
+      "printings": [
+        "SOM"
+      ],
+      "originalText": "{1}{R}, Sacrifice Vulshok Replica: Vulshok Replica deals 3 damage to target player.",
+      "originalType": "Artifact Creature — Berserker",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "27e6551c-8c32-55ee-bc49-32ebd901b0b2"
+    },
+    {
+      "name": "Sudden Shock",
+      "manaCost": "{1}{R}",
+      "cmc": 2.0,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Instant",
+      "supertypes": [],
+      "types": [
+        "Instant"
+      ],
+      "subtypes": [],
+      "rarity": "Uncommon",
+      "set": "TSP",
+      "setName": "Time Spiral",
+      "text": "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)\nSudden Shock deals 2 damage to any target.",
+      "flavor": "Arc mages aren't known for their patience.",
+      "artist": "Vance Kovacs",
+      "number": "179",
+      "layout": "normal",
+      "multiverseid": 114911,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=114911&type=card",
+      "rulings": [
+        {
+          "date": "2013-06-07",
+          "text": "Players still get priority while a card with split second is on the stack."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "Split second doesn’t prevent players from activating mana abilities."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "Split second doesn’t prevent triggered abilities from triggering. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "Split second doesn’t prevent players from performing special actions. Notably, players may turn face-down creatures face up while a spell with split second is on the stack."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "Casting a spell with split second won’t affect spells and abilities that are already on the stack."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "If the resolution of a triggered ability involves casting a spell, that spell can’t be cast if a spell with split second is on the stack."
+        }
+      ],
+      "foreignNames": [
+        {
+          "name": "Plötzlicher Schock",
+          "text": "Sekundenbruchteil (Solange dieser Zauberspruch sich auf dem Stapel befindet, können Spieler keine Zaubersprüche oder aktivierte Fähigkeiten spielen, die keine Manafähigkeiten sind.)\nPlötzlicher Schock fügt einer Kreatur oder einem Spieler deiner Wahl 2 Schadenspunkte zu.",
+          "flavor": "Lichtbogenmagier sind nicht gerade für ihre Geduld berüchtigt.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=133097&type=card",
+          "language": "German",
+          "multiverseid": 133097
+        },
+        {
+          "name": "Choque súbito",
+          "text": "Fracción de segundo (Mientras este hechizo esté en la pila, los jugadores no pueden jugar hechizos o habilidades activadas que no sean habilidades de maná.)\nEl Choque súbito hace 2 puntos de daño a la criatura o jugador objetivo.",
+          "flavor": "Los magos de arcos no son conocidos por su paciencia.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=134602&type=card",
+          "language": "Spanish",
+          "multiverseid": 134602
+        },
+        {
+          "name": "Choc soudain",
+          "text": "Fraction de seconde (Tant que ce sort est sur la pile, les joueurs ne peuvent pas jouer de sorts ou de capacités activées qui ne sont pas des capacités de mana.)\nLe Choc soudain inflige 2 blessures à une cible, créature ou joueur.",
+          "flavor": "Les mages à l'arc de feu ne sont pas connus pour leur patience.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132796&type=card",
+          "language": "French",
+          "multiverseid": 132796
+        },
+        {
+          "name": "Shock Improvviso",
+          "text": "Battibaleno (Fintanto che questa magia è in pila, i giocatori non possono giocare magie o abilità attivate che non siano abilità di mana.)\nLo Shock Improvviso infligge 2 danni a una creatura o a un giocatore bersaglio.",
+          "flavor": "Gli arcimaghi non sono rinomati per la loro pazienza.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=133398&type=card",
+          "language": "Italian",
+          "multiverseid": 133398
+        },
+        {
+          "name": "突然のショック",
+          "text": "刹那 （この呪文がスタックにあるかぎり、プレイヤーは呪文やマナ能力でない起動型能力をプレイできない。）\nクリーチャー１体かプレイヤー１人を対象とする。突然のショックはそれに２点のダメージを与える。",
+          "flavor": "弧炎の魔道士ほど、辛抱が似合わない者達はいない。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=133699&type=card",
+          "language": "Japanese",
+          "multiverseid": 133699
+        },
+        {
+          "name": "Choque Repentino",
+          "text": "Fração de segundo (Enquanto esta mágica estiver na pilha, os jogadores não poderão jogar mágicas ou habilidades ativadas que não sejam habilidades de mana.)\nChoque Repentino causa 2 pontos de dano à criatura alvo ou ao jogador alvo.",
+          "flavor": "Os magos do Arco não são conhecidos por sua paciência.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=134000&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 134000
+        },
+        {
+          "name": "Внезапный Шок",
+          "text": "Мгновение ока (До тех пор пока это заклинание находится в стеке, игроки не могут играть заклинания или активируемые способности, которые не являются мана-способностями.)\nВнезапный Шок наносит 2 повреждения целевому существу или игроку.",
+          "flavor": "Верховные маги не знали устали.",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=134301&type=card",
+          "language": "Russian",
+          "multiverseid": 134301
+        },
+        {
+          "name": "瞬息电震",
+          "text": "转瞬（只要此咒语在堆叠上，牌手便不能使用咒语或不是法术力异能的起动式异能。）\n瞬息电震对目标生物或牌手造成2点伤害。",
+          "flavor": "电弧法师当然不以耐心闻名。",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132495&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": 132495
+        }
+      ],
+      "printings": [
+        "MMA",
+        "PREL",
+        "PRM",
+        "TSP"
+      ],
+      "originalText": "Split second (As long as this spell is on the stack, players can't play spells or activated abilities that aren't mana abilities.)\nSudden Shock deals 2 damage to target creature or player.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "cfa2a7de-8294-5a45-8f1f-0376face7738"
+    }
+  ]
+}
