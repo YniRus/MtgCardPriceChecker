@@ -49,42 +49,93 @@ Vue.component('mtg-card', {
     }
 });
 
+Vue.component('mtg-news', {
+    template: '#news_template',
+    props: ['uid', 'title', 'date'],
+    data() { return {}},
+});
+
 var app = new Vue({
     el: '#app',
     data: {
         apiUrl: 'https://api.magicthegathering.io/v1/',
+        yandexTranslateApiUrl: 'https://translate.yandex.net/api/v1.5/tr.json/detect',
+        yandexTranslateApiKey: 'trnsl.1.1.20191222T192818Z.055274cdb186fb75.6f6e3590aaa75aed1069ae85e6e4d3aa3621d753',
         searchText: null,
         defaultLanguage: 'russian',
         cards : [],
-        loading : false
+        loading : false,
+        infoText : null
+    },
+    watch : {
+      cards : function (value) {
+          if(value.length === 0) {
+              this.infoText = "Ничего не найдено";
+          } else {
+              this.infoText = null;
+          }
+      }
     },
     methods : {
         searchCards : async function(event) {
-                let params = {
-                    name: this.searchText,
-                    language: this.defaultLanguage
-                };
+            this.infoText = null;
 
-                let query = jQuery.param(params);
+            let params = {
+                name: this.searchText,
+            };
+            let lang = await this.getLang(this.searchText);
+            if(lang !== 'english') {
+                params.language = lang;
+            }
+            let query = jQuery.param(params);
 
-                this.loading = true;
-                let response = await this.request({
-                    path: 'cards',
-                    query: query
-                });
-                this.loading = false;
+            this.loading = true;
+            let response = await this.request({
+                url: this.apiUrl,
+                path: 'cards',
+                query: query
+            });
+            this.loading = false;
 
-                if (response.cards !== undefined) {
-                    this.cards = response.cards;
+            if (response.cards !== undefined) {
+                this.cards = response.cards;
+            }
+        },
+        getLang : async function(text) {
+            let lang = this.defaultLanguage;
+
+            let params = {
+                key: this.yandexTranslateApiKey,
+                text: text,
+                hint: 'en,ru'
+            };
+
+            let query = jQuery.param(params);
+
+            let response = await this.request({
+                url: this.yandexTranslateApiUrl,
+                path: '',
+                query: query
+            });
+
+            if (response.code === 200) {
+                switch (response.lang) {
+                    case 'ru' : { lang = 'russian'; break; }
+                    case 'en' : { lang = 'english'; break; }
                 }
+            }
+            return lang;
         },
         request: async function (data) {
-            let url = this.apiUrl + data.path + '?' + data.query;
-            // let url = '/testdata.json';
+            let url = data.url + data.path + '?' + data.query;
             let options = {};
             let response = await fetch(url, options); // завершается с заголовками ответа
             let result = await response.json(); // читать тело ответа в формате JSON
             return result;
         }
     }
+});
+
+$(function () {
+    $('img[alt="www.000webhost.com"]').closest('div').remove();
 });

@@ -13,26 +13,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
               integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="index.css?v=1">
+        <script src="https://kit.fontawesome.com/964955c11a.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
 
-        <div id="app" class="container">
-            <div class="container mt-4">
-                <div class="input-group mb-4">
-                    <input type="text" class="form-control" placeholder="Название карты" v-model="searchText">
-                    <div class="input-group-append">
-                        <button id="searchButton"  class="btn btn-outline-primary" type="button" v-on:click="searchCards">
-                            <div v-show="loading" class="spinner-border spinner-border-sm " role="status" >
-                                <span class="sr-only">Loading...</span>
-                            </div>
-                            Найти
-                        </button>
+        <div id="app">
+            <div class="container mt-4 pb-4">
+                <form>
+                    <div class="input-group mb-4">
+                        <input type="text" class="form-control" placeholder="Название карты" v-model="searchText">
+                        <div class="input-group-append">
+                            <button id="searchButton"  class="btn btn-outline-primary" type="submit" v-on:click.prevent="searchCards">
+                                <div v-show="loading" class="spinner-border spinner-border-sm " role="status" >
+                                    <span class="sr-only">Loading...</span>
+                                </div>
+                                Найти
+                            </button>
+                        </div>
                     </div>
-                </div>
+                </form>
 
                 <div class="mtg-cards-wrapper">
+                    <p class="text-center text-muted" v-text='infoText'></p>
                     <mtg-card
                             v-for="card in cards"
                             v-bind:key="card.id"
@@ -40,13 +44,77 @@
                     ></mtg-card>
                 </div>
             </div>
+
+            <footer class="footer bg-white mb-3">
+                <div class="container d-flex justify-content-around h-100">
+                    <button class="btn btn-outline-primary align-self-center" data-toggle="modal" data-target="#feedbackModal"> Обратная связь </button>
+                    <button class="text-decoration-none btn btn-outline-primary align-self-center"  data-toggle="modal" data-target="#newsModal">
+                        <span> Новости </span>
+<!--                        <span class="badge badge-info">9</span>-->
+                    </button>
+                </div>
+            </footer>
+
+            <!-- Modal -->
+            <div class="modal fade" id="feedbackModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" >Обратная связь</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Есть вопросы, предложения, пожелания или просто хотите сказать Cпасибо?</p>
+                            <div class="container d-flex justify-content-around">
+                                <a href="https://vk.com/ynirus" target="_blank"> VK </a>
+                                <div>
+                                    <a href="mailto:ynirus@yandex.ru" target="_blank"> Email </a>
+<!--                                    <i v-on:click="putIntoBufer('ynirus@yandex.ru')" class="fa fa-files-o"> </i>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="newsModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Новости и обновления</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="list-group">
+                                <mtg-news uid="2" title="Обновление 1.1.0" date="22.12.2019">
+                                    Добавил возможность поиска и по английскому названию карты.
+                                    <br>
+                                    Добавил разделы "Новости" и "Обратная связь"
+                                </mtg-news>
+                                <mtg-news uid="1" title="Запуск приложения" date="19.12.2019">
+                                    <p class="mb-1">Пока <a href="http://mtgmania.ru/" class="text-decoration-none" target="_blank">mtgmania.ru</a> не
+                                        торопится изменить ссылки на старсити, я сваял сие детище. Надеюсь оно будет
+                                        полезно не только мне, но и всему нашему mtg-коммьюнити.
+                                    </p>
+                                </mtg-news>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <script type="text/x-template" id="card_template">
             <div class="mtg-card-wrapper text-center">
                 <div class="mtg-card mx-auto mb-4 shadow">
                     <img v-if="cardImage != undefined" v-bind:src="cardImage" class="mtg-card_image">
-                    <div v-else class="mtg-card_image" >Изображения нет</div>
+                    <img v-else class="mtg-card_image" src="http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=109796&type=card">
                     <div class="mtg-card_footer d-flex justify-content-between">
                         <div class="container text-left align-self-center">
                                 <div>{{ englishCardName }}</div>
@@ -62,6 +130,16 @@
             </div>
         </script>
 
+        <script type="text/x-template" id="news_template">
+            <div class="list-group-item flex-column">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">{{title}}</h5>
+                    <small class="text-muted align-self-center">{{date}}</small>
+                </div>
+                <slot></slot>
+            </div>
+        </script>
+
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
                 integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
@@ -70,6 +148,6 @@
                 integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
                 crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0/dist/vue.js"></script>
-        <script src="index.js?v=4"></script>
+        <script src="index.js?v=6"></script>
     </body>
 </html>
