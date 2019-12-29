@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="UTF-8">
-        <title>MTG Cards Online</title>
-        <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <title>MTG Cards Online - поиск карт и проверка цен</title>
+        <meta name="description" content="Удобный поиск карт Magic the Gathering и возможность быстро перейти на страницу проверки цен на карту.
+            Поиск карт MTG по русскому и английскому названию. Приятный дизайн и простота использования. Лучший сервис по проверке цен карт на ситях (starcitygames).">
+        <link rel="apple-touch-icon" sizes="76x76" href="/res/img/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/res/img/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/res/img/icons/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="mask-icon" href="/res/img/icons/safari-pinned-tab.svg" color="#5bbad5">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
         <meta name="yandex-verification" content="cf8abeeb40871962" />
@@ -31,16 +33,16 @@
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
               integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="index.css?v=1">
-        <script src="https://kit.fontawesome.com/964955c11a.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="res/lib/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="res/css/index.css?v=2.2">
     </head>
 
     <body>
 
-        <div id="app">
-            <div class="container mt-4 pb-4">
+        <div id="app" class="text-center">
+            <header class="py-4 sticky-top container">
                 <form>
-                    <div class="input-group mb-4">
+                    <div class="input-group bg-white" id="search_group">
                         <input type="text" class="form-control" placeholder="Название карты" v-model="searchText">
                         <div class="input-group-append">
                             <button id="searchButton"  class="btn btn-outline-primary" type="submit" v-on:click.prevent="searchCards">
@@ -52,9 +54,11 @@
                         </div>
                     </div>
                 </form>
+            </header>
 
+            <div class="container pb-1">
                 <div class="mtg-cards-wrapper">
-                    <p class="text-center text-muted" v-text='infoText'></p>
+                    <p v-if="infoText" class="text-center text-muted" v-text='infoText'></p>
                     <mtg-card
                             v-for="card in cards"
                             v-bind:key="card.id"
@@ -63,13 +67,26 @@
                 </div>
             </div>
 
-            <footer class="footer bg-white mb-3">
-                <div class="container d-flex justify-content-around h-100">
-                    <button class="btn btn-outline-primary align-self-center" data-toggle="modal" data-target="#feedbackModal"> Обратная связь </button>
-                    <button class="text-decoration-none btn btn-outline-primary align-self-center"  data-toggle="modal" data-target="#newsModal">
-                        <span> Новости </span>
-<!--                        <span class="badge badge-info">9</span>-->
-                    </button>
+            <footer class="footer text-center" v-bind:class="footerCollapseClass">
+                <div class="collapse-wrapper">
+                    <a v-on:click="toggleFooter" class="bg-white d-inline-block my-2" v-bind:class="footerCollapseButtonClass" data-toggle="collapse" href="#footerCollapse"  aria-expanded="false" aria-controls="footerCollapse">
+                        <i class="fa" v-bind:class="footerCollapseIconClass"></i>
+                    </a>
+                    <div class="collapse bg-white" id="footerCollapse">
+                        <div class="container h-100">
+                            <div class="row pb-3">
+                                <div class="col-6">
+                                    <button class="btn btn-block btn-outline-primary align-self-center" data-toggle="modal" data-target="#feedbackModal"> Обратная связь </button>
+                                </div>
+                                <div class="col-6">
+                                    <button class="text-decoration-none btn-block btn btn-outline-primary align-self-center"  data-toggle="modal" data-target="#newsModal">
+                                        <span> Новости </span>
+                                        <!--                        <span class="badge badge-info">9</span>-->
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </footer>
 
@@ -109,6 +126,9 @@
                         </div>
                         <div class="modal-body">
                             <div class="list-group">
+                                <mtg-news uid="3" title="Обновление 1.2.0" date="30.12.2019">
+                                    Немного изменил дизайн шапки и низа сайта. Он стал более лаконичным.
+                                </mtg-news>
                                 <mtg-news uid="2" title="Обновление 1.1.0" date="22.12.2019">
                                     Добавил возможность поиска и по английскому названию карты.
                                     <br>
@@ -166,6 +186,6 @@
                 integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
                 crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0/dist/vue.js"></script>
-        <script src="index.js?v=6"></script>
+        <script src="res/js/index.js?v=7.2"></script>
     </body>
 </html>

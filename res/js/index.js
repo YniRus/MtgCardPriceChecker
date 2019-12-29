@@ -65,16 +65,37 @@ var app = new Vue({
         defaultLanguage: 'russian',
         cards : [],
         loading : false,
-        infoText : null
+        infoText : null,
+        footerCollapsed : true
+    },
+    computed: {
+        footerCollapseIconClass : function () {
+            return {
+                'fa-angle-up' : this.footerCollapsed === true,
+                'fa-angle-down' : this.footerCollapsed === false
+            }
+        },
+        footerCollapseButtonClass : function () {
+            return {
+                'small-collapse-button shadow-sm' : this.footerCollapsed === true,
+                'fluid-collapse-button shadow-none' : this.footerCollapsed === false
+            }
+        },
+        footerCollapseClass : function () {
+            return {
+                'bg-transparent' : this.footerCollapsed === true,
+                'bg-white shadow' : this.footerCollapsed === false,
+            }
+        }
     },
     watch : {
-      cards : function (value) {
-          if(value.length === 0) {
-              this.infoText = "Ничего не найдено";
-          } else {
-              this.infoText = null;
-          }
-      }
+        cards: function (value) {
+            if (value.length === 0) {
+                this.infoText = "Ничего не найдено";
+            } else {
+                this.infoText = null;
+            }
+        }
     },
     methods : {
         searchCards : async function(event) {
@@ -126,8 +147,12 @@ var app = new Vue({
             }
             return lang;
         },
+        toggleFooter : function() {
+            this.footerCollapsed = !this.footerCollapsed;
+        },
         request: async function (data) {
             let url = data.url + data.path + '?' + data.query;
+            // url = '/res/data/testdata.json';
             let options = {};
             let response = await fetch(url, options); // завершается с заголовками ответа
             let result = await response.json(); // читать тело ответа в формате JSON
@@ -138,4 +163,10 @@ var app = new Vue({
 
 $(function () {
     $('img[alt="www.000webhost.com"]').closest('div').remove();
+
+    $(window).scroll(function () {
+        $("header").toggleClass("py-4", $(this).scrollTop() < 38)
+        $("header").toggleClass("shrink py-2", $(this).scrollTop() > 38)
+        $("#search_group").toggleClass("shadow-sm", $(this).scrollTop() > 38)
+    });
 });
