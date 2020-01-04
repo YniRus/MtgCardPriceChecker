@@ -20,12 +20,12 @@ img[alt="www.000webhost.com"] {
 }
 
 header {
-    transition: 0.25s all ease-in-out;
+    transition: 0.25s all;
 }
 
 #search_group {
     border-radius : 0.25rem;
-    transition: 0.25s all ease-in-out;
+    transition: 0.25s all;
 }
 
 header.shrink {
