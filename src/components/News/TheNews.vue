@@ -1,5 +1,10 @@
 <template>
   <div class="list-group">
+    <NewsItem title="Обновление 2.1.1" date="29.07.2022">
+      Я вернулся и переписал приложение. <br>
+      Теперь поиск работает на API <a href="https://scryfall.com/" class="text-decoration-none" target="_blank">Scryfall</a>.
+      Это позволило сильно ускорить поиск и добавило возможности мощной поисковой системы (<a href="https://scryfall.com/docs/syntax" class="text-decoration-none" target="_blank">подробнее</a>)
+    </NewsItem>
     <NewsItem title="Обновление 1.2.0" date="30.12.2019">
       Немного изменил дизайн шапки и низа сайта. Он стал более лаконичным.
     </NewsItem>
