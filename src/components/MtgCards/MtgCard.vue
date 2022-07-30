@@ -2,20 +2,15 @@
   <div class="mtg-card-wrapper text-center">
     <div class="mtg-card mx-auto mb-4 shadow">
       <img
-          v-if="cardImage"
-          :src="cardImage"
+          v-if="card.image_uris"
+          :src="card.image_uris.normal"
           class="mtg-card_image"
-      >
-      <img
-          v-else
-          class="mtg-card_image"
-          src="http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=109796&type=card"
       >
 
       <div class="mtg-card_footer d-flex justify-content-between">
         <div class="container text-left align-self-center">
-          <div>{{ englishCardName }}</div>
-          <div>{{ russianCardName }}</div>
+          <span class="d-block">{{ card.name }}</span>
+          <small v-if="card.printed_name">{{ card.printed_name }}</small>
         </div>
         <div class="align-self-end">
           <a
@@ -43,24 +38,8 @@ export default {
   },
 
   computed: {
-    russianCardName() {
-      const foreignName = (this.card.foreignNames || []).find(i => i.language === 'Russian');
-
-      return foreignName?.name || "";
-    },
-
-    cardImage() {
-      const foreignName = (this.card.foreignNames || []).find(i => i.language === 'Russian');
-
-      return foreignName?.imagetUrl || this.card.imageUrl;
-    },
-
-    englishCardName() {
-      return this.card.name;
-    },
-
     starcityUrl() {
-      const query = $.param({ search_query: this.englishCardName });
+      const query = $.param({ card_name: this.card.name });
 
       return 'https://starcitygames.com/search/' + '?' + query;
     },
@@ -95,6 +74,7 @@ export default {
   .starcity-logo {
     float: right;
     border-radius: 15px 0px;
+    padding: 4px;
     overflow: hidden;
     background-color: #125687;
     height: 60px;

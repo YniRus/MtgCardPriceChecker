@@ -32,13 +32,12 @@ export default {
 
   data() {
     return {
-      loading: false,
+      apiUrl: process.env.VUE_APP_API_URL,
       cards: [],
       searchError: '',
-      apiUrl: process.env.VUE_APP_API_URL,
-      yandexTranslateApiUrl: process.env.VUE_APP_YANDEX_TRANSLATE_API_URL,
-      yandexTranslateApiKey: process.env.VUE_APP_YANDEX_TRANSLATE_API_KEY,
-      defaultLanguage: 'russian',
+      searchErrorTimer: null,
+      apiRequestTimer: null,
+      loading: false,
     };
   },
 
@@ -48,83 +47,53 @@ export default {
     MtgCards,
   },
 
-  watch: {
-    cards: function (value) {
-      if (!value.length) {
-        this.searchError = "Ничего не найдено";
-      } else {
-        this.searchError = null;
-      }
-    },
-  },
-
-  computed: {
-    api() {
-      return process.env.VUE_API_URL;
-    },
-  },
-
   methods: {
     async searchCards(search) {
-      this.searchError = null;
-
-      const params = {
-        name: search,
-      };
-
-      const lang = await this.getLang(search);
-      if (lang !== 'english') {
-        params.language = lang;
-      }
-
-      const query = $.param(params);
+      this.refresh();
+      const query = $.param({
+        q: !search.includes('lang:') ? `${search} lang:any` : search,
+        unique: 'cards',
+      });
 
       this.loading = true;
-
       const response = await this.request({
         url: this.apiUrl,
-        path: 'cards',
+        path: 'cards/search',
         query: query,
       });
       this.loading = false;
 
-      if (response.cards !== undefined) {
-        this.cards = response.cards;
-      }
+      response.object === 'error' && this.showError(response);
+      response.object === 'list' && this.setCards(response);
     },
 
-    async getLang(text) {
-      let lang = this.defaultLanguage;
+    refresh() {
+      this.cards = [];
+      this.searchError = '';
+      this.searchErrorTimer && clearTimeout(this.searchErrorTimer);
+    },
 
-      const params = {
-        key: this.yandexTranslateApiKey,
-        text: text,
-        hint: 'en,ru',
-      };
+    setCards(response) {
+      this.cards = response.data;
+    },
 
-      const query = $.param(params);
-
-      const response = await this.request({
-        url: this.yandexTranslateApiUrl,
-        path: '',
-        query: query,
-      });
-
-      if (response.code === 200) {
-        switch (response.lang) {
-          case 'ru' : { lang = 'russian'; break; }
-          case 'en' : { lang = 'english'; break; }
-        }
-      }
-      return lang;
+    showError(response) {
+      this.searchError = `${response.status} ${response.code}`;
+      this.searchErrorTimer = setTimeout(() => { this.searchError = '' }, process.env.VUE_APP_ALERT_TIMEOUT)
     },
 
     async request(data) {
+      if (this.apiRequestTimer) {
+        return {
+          object: 'error',
+          status: '429',
+          code: 'too many requests',
+        };
+      }
       const url = data.url + data.path + '?' + data.query;
-      const options = {};
-      const response = await fetch(url, options); // завершается с заголовками ответа
-      const result = await response.json(); // читать тело ответа в формате JSON
-      return result;
+      this.apiRequestTimer = setTimeout(() => { this.apiRequestTimer = null }, process.env.VUE_APP_API_REQUEST_INTERVAL)
+      const response = await fetch(url);
+      return response.json();
     },
   },
 }

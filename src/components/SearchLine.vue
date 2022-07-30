@@ -44,7 +44,7 @@ export default {
 
   methods: {
     search() {
-      this.$emit('search', this.searchText);
+      !this.loading && this.$emit('search', this.searchText);
     },
   },
 }

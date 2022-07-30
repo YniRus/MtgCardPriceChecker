@@ -7,8 +7,6 @@ export default {
   name: 'App',
 
   beforeCreate() {
-    $('img[alt="www.000webhost.com"]').closest('div').remove();
-
     $(window).scroll(function () {
       $("header").toggleClass("py-4", $(this).scrollTop() < 38)
       $("header").toggleClass("shrink py-2", $(this).scrollTop() > 38)
@@ -25,9 +23,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-img[alt="www.000webhost.com"] {
-  display: none;
 }
 </style>
