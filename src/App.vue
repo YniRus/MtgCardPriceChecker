@@ -5,14 +5,6 @@
 <script>
 export default {
   name: 'App',
-
-  beforeCreate() {
-    $(window).scroll(function () {
-      $("header").toggleClass("py-4", $(this).scrollTop() < 38)
-      $("header").toggleClass("shrink py-2", $(this).scrollTop() > 38)
-      $("#search_group").toggleClass("shadow-sm", $(this).scrollTop() > 38)
-    });
-  },
 }
 </script>
 

@@ -49,6 +49,8 @@ export default {
 
   methods: {
     async searchCards(search) {
+      if (!search) { return }
+
       this.refresh();
       const query = $.param({
         q: !search.includes('lang:') ? `${search} lang:any` : search,

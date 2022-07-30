@@ -1,10 +1,11 @@
 <template>
   <div class="input-group bg-white" id="search_group">
     <input
-      type="text"
+      type="search"
       class="form-control"
       placeholder="Название карты"
       v-model="searchText"
+      @search.prevent="search"
       @keydown.enter="search"
     >
     <div class="input-group-append">
@@ -29,6 +30,8 @@
 export default {
   name: 'SearchLine',
 
+  emits: ['search'],
+
   props: {
     loading: {
       type: Boolean,
@@ -44,7 +47,7 @@ export default {
 
   methods: {
     search() {
-      !this.loading && this.$emit('search', this.searchText);
+      !this.loading && this.$emit('search', this.searchText || '');
     },
   },
 }
@@ -54,5 +57,6 @@ export default {
 #search_group {
   border-radius: 0.25rem;
   transition: 0.25s all;
+  max-height: 38px;
 }
 </style>
