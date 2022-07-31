@@ -96,7 +96,7 @@ export default {
     },
 
     starcityUrl() {
-      const query = $.param({ card_name: this.card.name });
+      const query = $.param({ card_name: this.card.name.replace(',', '%c%') });
 
       return 'https://starcitygames.com/search/' + '?' + query;
     },
