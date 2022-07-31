@@ -1,5 +1,8 @@
 <template>
   <div class="list-group">
+    <NewsItem title="Обновление 2.2.0" date="30.07.2022">
+      Добавил возможность перейти на другие площадки (помимо Starcity). По умолчанию также выводится ссылка на Starcity, но свайпнув вправо можно открыть ссылки и на другие.
+    </NewsItem>
     <NewsItem title="Обновление 2.1.1" date="29.07.2022">
       Я вернулся и переписал приложение. <br>
       Теперь поиск работает на API <a href="https://scryfall.com/" class="text-decoration-none" target="_blank">Scryfall</a>.
