@@ -96,7 +96,23 @@ export default {
     },
 
     starcityUrl() {
-      const query = $.param({ card_name: this.card.name.replaceAll(',', '%c%') });
+      const cardName = this.card.name.replaceAll(',', '%c%');
+
+      // if (['art', 'prints'].includes(this.searchOptions.unique)) {
+      //   if (this.card.frame_effects?.includes?.('showcase')) {
+      //     searchQuery = 'Showcase';
+      //   } else if (this.card.frame_effects?.includes?.('extendedart')) {
+      //     searchQuery = 'Extended';
+      //   } else if (this.card.border_color === 'borderless') {
+      //     searchQuery = 'Borderless';
+      //   } else if (this.card.promo_types?.includes?.('prerelease')) {
+      //     searchQuery = 'Prerelease';
+      //   } else if (this.card.promo || this.card.promo_types?.includes?.('promopack')) {
+      //     searchQuery = 'Promo';
+      //   }
+      // }
+
+      const query = $.param({ card_name: cardName });
 
       return `https://starcitygames.com/search/?${query}`;
     },
@@ -122,6 +138,8 @@ export default {
         cardName = cardName + '-showcase';
       } else if (this.card.frame_effects?.includes?.('extendedart')) {
         cardName = cardName + '-extended';
+      } else if (this.card.border_color === 'borderless') {
+        cardName = cardName + '-borderless';
       }
 
       return `https://www.mtggoldfish.com/price/${setName}/${cardName}`;

@@ -48,7 +48,7 @@
                 @click.prevent="onLanguageChange('ru,en')"
                 @keydown.enter="onLanguageChange('ru,en')"
             >
-              <input type="radio" name="options" autocomplete="off" :checked="lang === 'ru,en'"> русский и английский
+              <input type="radio" name="lang" autocomplete="off" :checked="lang === 'ru,en'"> русский и английский
             </label>
             <label
                 class="btn btn-outline-primary"
@@ -56,7 +56,7 @@
                 @click.prevent="onLanguageChange('any')"
                 @keydown.enter="onLanguageChange('any')"
             >
-              <input type="radio" name="options" autocomplete="off" :checked="lang === 'any'"> все языки
+              <input type="radio" name="lang" autocomplete="off" :checked="lang === 'any'"> все языки
             </label>
           </div>
         </div>
@@ -70,7 +70,7 @@
                 @click.prevent="onUniqueChange('cards')"
                 @keydown.enter="onUniqueChange('cards')"
             >
-              <input type="radio" name="options" autocomplete="off" :checked="unique === 'cards'"> уникальные карты
+              <input type="radio" name="unique" autocomplete="off" :checked="unique === 'cards'"> уникальные карты
             </label>
             <label
                 class="btn btn-outline-primary"
@@ -78,7 +78,7 @@
                 @click.prevent="onUniqueChange('art')"
                 @keydown.enter="onUniqueChange('art')"
             >
-              <input type="radio" name="options" autocomplete="off" :checked="unique === 'art'"> уникальные арты
+              <input type="radio" name="unique" autocomplete="off" :checked="unique === 'art'"> уникальные арты
             </label>
             <label
                 class="btn btn-outline-primary"
@@ -86,7 +86,7 @@
                 @click.prevent="onUniqueChange('prints')"
                 @keydown.enter="onUniqueChange('prints')"
             >
-              <input type="radio" name="options" autocomplete="off" :checked="unique === 'prints'"> все принты
+              <input type="radio" name="unique" autocomplete="off" :checked="unique === 'prints'"> все принты
             </label>
           </div>
 
@@ -95,7 +95,10 @@
               class="alert alert-info px-2 py-1 mt-1 mb-0 w-100"
               role="alert"
           >
-            <small>В данном режиме рекомендуется использовать поиск по полному соответствию названия. <br> Для этого поставьте <b>!</b> перед названием карты (например, <b>!</b>Шок).</small>
+            <small>
+              В данном режиме рекомендуется использовать поиск по полному соответствию названия.
+              <br> Для этого поставьте <b>!</b> перед названием карты и напишите его в кавычках (например, <b>!</b>"Шок").
+            </small>
           </div>
         </div>
       </div>
@@ -119,8 +122,8 @@ export default {
   data() {
     return {
       searchText: '',
-      lang: 'ru,en',
-      unique: 'cards',
+      lang: '',
+      unique: '',
       extended: false,
     };
   },
@@ -154,6 +157,11 @@ export default {
         unique: this.unique,
       });
     },
+  },
+
+  mounted() {
+    this.onLanguageChange('ru,en');
+    this.onUniqueChange('cards');
   },
 }
 </script>
