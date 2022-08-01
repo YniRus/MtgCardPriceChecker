@@ -67,8 +67,8 @@ export default {
   },
 
   methods: {
-    onSearch(search) {
-      this.$emit('search', search);
+    onSearch(search, options) {
+      this.$emit('search', search, options);
     },
 
     handleScroll(event) {

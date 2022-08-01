@@ -96,9 +96,35 @@ export default {
     },
 
     starcityUrl() {
-      const query = $.param({ card_name: this.card.name.replace(',', '%c%') });
+      const query = $.param({ card_name: this.card.name.replaceAll(',', '%c%') });
 
-      return 'https://starcitygames.com/search/' + '?' + query;
+      return `https://starcitygames.com/search/?${query}`;
+    },
+
+    topdeckUrl() {
+      const query = $.param({ q: this.card.name });
+
+      return `https://topdeck.ru/apps/toptrade/singles/search?${query}`;
+    },
+
+    mtggoldfishUrl() {
+      const prepare = function (string) {
+        return string
+          .replace(/[,: ]/g, '+')
+          .replace(/\+{2,}/g, '+')
+          .replace(/'/g, '')
+      }
+
+      let cardName = prepare(this.cardFaceFront.name || this.card.name);
+      const setName = prepare(this.card.set_name);
+
+      if (this.card.frame_effects?.includes?.('showcase')) {
+        cardName = cardName + '-showcase';
+      } else if (this.card.frame_effects?.includes?.('extendedart')) {
+        cardName = cardName + '-extended';
+      }
+
+      return `https://www.mtggoldfish.com/price/${setName}/${cardName}`;
     },
 
     purchaseLinks() {
@@ -107,18 +133,30 @@ export default {
           logo: require('@/assets/starcitygames-logo.png'),
           link: this.starcityUrl,
         },
-        cardhoarder: {
-          logo: require('@/assets/cardhoarder-logo.png'),
-          link: this.card.purchase_uris?.cardhoarder,
+        mtggoldfish: {
+          logo: require('@/assets/mtggoldfish-logo.png'),
+          link: this.mtggoldfishUrl,
         },
-        cardmarket: {
-          logo: require('@/assets/cardmarket-logo.png'),
-          link: this.card.purchase_uris?.cardmarket,
+        topdeck: {
+          logo: require('@/assets/topdeck-logo.png'),
+          link: this.topdeckUrl,
         },
         tcgplayer: {
           logo: require('@/assets/tcgplayer-logo.png'),
           link: this.card.purchase_uris?.tcgplayer,
         },
+        ...(false && {
+          cardhoarder: {
+            logo: require('@/assets/cardhoarder-logo.png'),
+            link: this.card.purchase_uris?.cardhoarder,
+          },
+        }),
+        ...(false && {
+          cardmarket: {
+            logo: require('@/assets/cardmarket-logo.png'),
+            link: this.card.purchase_uris?.cardmarket,
+          },
+        }),
       };
     },
   },
@@ -227,6 +265,10 @@ $trade-link-width: 70px;
 
       &.starcity {
         background-color: #125687;
+      }
+
+      &.topdeck {
+        background-color: #284b72;
       }
 
       &.cardhoarder {

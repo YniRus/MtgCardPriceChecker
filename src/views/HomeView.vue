@@ -48,13 +48,13 @@ export default {
   },
 
   methods: {
-    async searchCards(search) {
+    async searchCards(search, { unique }) {
       if (!search) { return }
 
       this.refresh();
       const query = $.param({
-        q: !search.includes('lang:') ? `${search} lang:any` : search,
-        unique: 'cards',
+        q: search,
+        unique,
       });
 
       this.loading = true;
