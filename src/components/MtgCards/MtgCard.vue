@@ -71,6 +71,10 @@ export default {
   data() {
     return {
       expanded: false,
+
+      nonBorderlessFrameSets: [
+        'Strixhaven Mystical Archive',
+      ],
     };
   },
 
@@ -131,14 +135,21 @@ export default {
           .replace(/'/g, '')
       }
 
+      const setsMap = {
+        'Secret Lair Drop': 'Secret Lair',
+        'Magic Online Promos': 'Magic Online Promo',
+        'Dominaria Promos': 'Dominaria',
+        'Magic 2015': 'Magic 2015 Core Set',
+      };
+
       let cardName = prepare(this.cardFaceFront.name || this.card.name);
-      const setName = prepare(this.card.set_name);
+      const setName = prepare(setsMap[this.card.set_name] || this.card.set_name);
 
       if (this.card.frame_effects?.includes?.('showcase')) {
         cardName = cardName + '-showcase';
       } else if (this.card.frame_effects?.includes?.('extendedart')) {
         cardName = cardName + '-extended';
-      } else if (this.card.border_color === 'borderless') {
+      } else if (this.card.border_color === 'borderless' && !this.nonBorderlessFrameSets.includes(this.card.set_name)) {
         cardName = cardName + '-borderless';
       }
 
