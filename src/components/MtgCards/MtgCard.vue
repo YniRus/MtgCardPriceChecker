@@ -57,6 +57,7 @@
 
 <script>
 import Swipe from "@/lib/swipe";
+import Utils from "@/modules/utils";
 
 export default {
   name: 'MtgCard',
@@ -116,13 +117,13 @@ export default {
       //   }
       // }
 
-      const query = $.param({ card_name: cardName });
+      const query = Utils.getQueryString({ card_name: cardName });
 
       return `https://starcitygames.com/search/?${query}`;
     },
 
     topdeckUrl() {
-      const query = $.param({ q: this.card.name });
+      const query = Utils.getQueryString({ q: this.card.name });
 
       return `https://topdeck.ru/apps/toptrade/singles/search?${query}`;
     },

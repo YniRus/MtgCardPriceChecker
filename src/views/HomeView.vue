@@ -27,18 +27,23 @@ import MtgCards from "@/components/MtgCards/MtgCards";
 import HomeHeader from "@/components/HomeHeader";
 import HomeFooter from "@/components/HomeFooter";
 
+import Api from "@/modules/api";
+
 export default {
   name: 'HomeView',
 
   data() {
     return {
-      apiUrl: process.env.VUE_APP_API_URL,
       cards: [],
       searchError: '',
       searchErrorTimer: null,
-      apiRequestTimer: null,
-      loading: false,
     };
+  },
+
+  computed: {
+    loading() {
+      return Api.loading;
+    },
   },
 
   components: {
@@ -52,50 +57,28 @@ export default {
       if (!search) { return }
 
       this.refresh();
-      const query = $.param({
-        q: search,
-        unique,
-      });
 
-      this.loading = true;
-      const response = await this.request({
-        url: this.apiUrl,
-        path: 'cards/search',
-        query: query,
-      });
-      this.loading = false;
+      const response = await Api.request('cards/search', 'GET', { q: search, unique });
 
       response.object === 'error' && this.showError(response);
-      response.object === 'list' && this.setCards(response);
+      response.object === 'list' && this.setCards(response.data);
     },
 
     refresh() {
-      this.cards = [];
+      this.setCards([]);
       this.searchError = '';
+      // TODO: Перейти на vuetify и убрать это
       this.searchErrorTimer && clearTimeout(this.searchErrorTimer);
     },
 
-    setCards(response) {
-      this.cards = response.data;
+    setCards(cards) {
+      this.cards = cards;
     },
 
     showError(response) {
       this.searchError = `${response.status} ${response.code}`;
+      // TODO: Перейти на vuetify и убрать это
       this.searchErrorTimer = setTimeout(() => { this.searchError = '' }, process.env.VUE_APP_ALERT_TIMEOUT)
-    },
-
-    async request(data) {
-      if (this.apiRequestTimer) {
-        return {
-          object: 'error',
-          status: '429',
-          code: 'too many requests',
-        };
-      }
-      const url = data.url + data.path + '?' + data.query;
-      this.apiRequestTimer = setTimeout(() => { this.apiRequestTimer = null }, process.env.VUE_APP_API_REQUEST_INTERVAL)
-      const response = await fetch(url);
-      return response.json();
     },
   },
 }

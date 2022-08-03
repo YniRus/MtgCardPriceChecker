@@ -5,7 +5,7 @@
   "background_color": "#fff",
   "description": "Удобный поиск карт Magic the Gathering и возможность быстро перейти на страницу проверки цен на карту.",
   "icons": [{
-    "src": "logo-android-192x192.png",
+    "src": "./img/icons/android-chrome-192x192.png",
     "sizes": "192x192",
     "type": "image/png"
   }],
