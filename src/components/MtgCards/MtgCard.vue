@@ -159,30 +159,30 @@ export default {
     purchaseLinks() {
       return {
         starcity: {
-          logo: require('@/assets/starcitygames-logo.png'),
+          logo: require('@/assets/images/logos/platforms/starcitygames.png'),
           link: this.starcityUrl,
         },
         mtggoldfish: {
-          logo: require('@/assets/mtggoldfish-logo.png'),
+          logo: require('@/assets/images/logos/platforms/mtggoldfish.png'),
           link: this.mtggoldfishUrl,
         },
         topdeck: {
-          logo: require('@/assets/topdeck-logo.png'),
+          logo: require('@/assets/images/logos/platforms/topdeck.png'),
           link: this.topdeckUrl,
         },
         tcgplayer: {
-          logo: require('@/assets/tcgplayer-logo.png'),
+          logo: require('@/assets/images/logos/platforms/tcgplayer.png'),
           link: this.card.purchase_uris?.tcgplayer,
         },
         ...(false && {
           cardhoarder: {
-            logo: require('@/assets/cardhoarder-logo.png'),
+            logo: require('@/assets/images/logos/platforms/cardhoarder.png'),
             link: this.card.purchase_uris?.cardhoarder,
           },
         }),
         ...(false && {
           cardmarket: {
-            logo: require('@/assets/cardmarket-logo.png'),
+            logo: require('@/assets/images/logos/platforms/cardmarket.png'),
             link: this.card.purchase_uris?.cardmarket,
           },
         }),

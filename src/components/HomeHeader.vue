@@ -5,11 +5,11 @@
   >
     <img
       class="header-logo--big d-none d-lg-block"
-      src="@/assets/logo-big.png"
+      src="@/assets/images/logos/mtg-cpc-big.png"
     >
     <img
         class="header-logo--small d-lg-none"
-        src="@/assets/logo-small.png"
+        src="@/assets/images/logos/mtg-cpc-small.png"
     >
 
     <SearchLine
@@ -26,7 +26,7 @@
       >
         <img
             class="scryfall-logo"
-            src="@/assets/scryfall-logo.svg"
+            src="@/assets/images/logos/other/scryfall.svg"
         >
       </a>
     </div>
