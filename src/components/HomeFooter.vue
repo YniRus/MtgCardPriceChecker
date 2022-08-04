@@ -78,7 +78,7 @@
 </template>
 
 <script>
-import TheNews from "@/components/News/TheNews";
+import TheNews from "@/components/TheNews";
 
 export default {
   name: 'HomeFooter',
