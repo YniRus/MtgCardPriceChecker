@@ -13,7 +13,7 @@
           aria-expanded="false"
           aria-controls="footerCollapse"
       >
-        <i class="fa" :class="collapseIconClass" />
+        <va-icon :name="collapseIconName" />
       </a>
       <div class="collapse bg-white" id="footerCollapse">
         <div class="container h-100">
@@ -108,11 +108,8 @@ export default {
       }
     },
 
-    collapseIconClass() {
-      return {
-        'fa-angle-up': this.collapsed === true,
-        'fa-angle-down': this.collapsed === false,
-      }
+    collapseIconName() {
+      return this.collapsed ? 'expand_less' : 'expand_more';
     },
   },
 
@@ -149,7 +146,6 @@ footer {
 }
 
 .small-collapse-button {
-  height: 20px;
   line-height: 20px;
   width: 50px;
   border-radius: 5px;

@@ -32,7 +32,7 @@
             aria-expanded="false"
             aria-controls="searchCollapse"
         >
-          <i class=" fa fa-angle-down"/>
+          <va-icon size="20px" name="expand_more"/>
         </a>
       </div>
     </div>

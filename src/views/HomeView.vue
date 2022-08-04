@@ -6,16 +6,7 @@
     />
 
     <div class="container pb-1">
-      <MtgCards :cards="cards">
-        <template #before>
-          <p
-              v-if="searchError"
-              class="text-center text-muted"
-          >
-            {{ searchError }}
-          </p>
-        </template>
-      </MtgCards>
+      <MtgCards :cards="cards" />
     </div>
 
     <HomeFooter />
@@ -35,8 +26,6 @@ export default {
   data() {
     return {
       cards: [],
-      searchError: '',
-      searchErrorTimer: null,
     };
   },
 
@@ -55,8 +44,7 @@ export default {
   methods: {
     async searchCards(search, { unique }) {
       if (!search) { return }
-
-      this.refresh();
+      this.setCards([]);
 
       const response = await Api.request('cards/search', 'GET', { q: search, unique });
 
@@ -64,21 +52,18 @@ export default {
       response.object === 'list' && this.setCards(response.data);
     },
 
-    refresh() {
-      this.setCards([]);
-      this.searchError = '';
-      // TODO: Перейти на vuetify и убрать это
-      this.searchErrorTimer && clearTimeout(this.searchErrorTimer);
-    },
-
     setCards(cards) {
       this.cards = cards;
     },
 
     showError(response) {
-      this.searchError = `${response.status} ${response.code}`;
-      // TODO: Перейти на vuetify и убрать это
-      this.searchErrorTimer = setTimeout(() => { this.searchError = '' }, process.env.VUE_APP_ALERT_TIMEOUT)
+      this.$vaToast.init({
+        title: response.status,
+        message: response.code,
+        color: 'primary',
+        offsetY: 70,
+        duration: process.env.VUE_APP_ALERT_TIMEOUT,
+      })
     },
   },
 }

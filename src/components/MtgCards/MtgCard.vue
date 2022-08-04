@@ -31,7 +31,7 @@
               aria-expanded="false"
               aria-controls="footerCollapse"
           >
-            <i class="fa fa-angle-left" />
+            <va-icon name="chevron_left" />
           </a>
 
           <a
@@ -255,6 +255,7 @@ $trade-link-width: 70px;
       .expand-button {
         height: $trade-link-height;
         min-width: $expand-button-width;
+        max-width: $expand-button-width;
         display: flex;
         align-items: center;
         justify-content: center;
